@@ -4,7 +4,7 @@ This bootcamp is optimized for empowering designers to modify the view and anima
 
 In terms of prototyping, the goal of the class is to provide the tools necessary to build rich, interactive mocks using Objective-C instead of Quartz Composer and other tools. While the bootcamps will not cover enough topics to make the prototypes fully functional, that would be the logical next step.
 
-## Course Schedule
+## Syllabus
 
 ### Week 1 - Basic views and layout
 
