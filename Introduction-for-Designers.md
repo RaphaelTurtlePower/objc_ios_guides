@@ -6,7 +6,7 @@ In terms of prototyping, the goal of the class is to provide the tools necessary
 
 ## Course Schedule
 
-### [Week 1 - Basic views and layout]()
+### [[Week 1 - Basic views and layout]]
 
 <table>
 <tr>
@@ -14,12 +14,13 @@ In terms of prototyping, the goal of the class is to provide the tools necessary
   <td><img src="http://i.imgur.com/YO5BHfwl.png" align="right" /></td>
 </tr>
 </table>
-### Week 2 - Custom feeds
 
-### Week 3 - Navigation and Modals
+### [[Week 2 - Custom feeds]]
 
-### Week 4 - Gestures and Events
+### [[Week 3 - Navigation and Modals]]
 
-### Week 5 - Animation
+### [[Week 4 - Gestures and Events]]
+
+### [[Week 5 - Animation]]
 
 ### Week 6 - TBD
