@@ -23,11 +23,13 @@ We will be covering laying out basic views such as labels, images, and buttons i
 
 #### Homework
 
-<img src="http://i.imgur.com/YO5BHfwl.png" /><img src="http://i.imgur.com/YO5BHfwl.png" /><img src="http://i.imgur.com/YO5BHfwl.png" />
+The homework this week is to make a non-scrollable version of a detailed view of a Facebook post. Full homework description is [[here|Designer Week 1 Homework]].
 
-#### Skills checklist
+<img src="http://i.imgur.com/YO5BHfwl.png" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/YO5BHfwl.png"  width="250" />&nbsp;&nbsp;<img src="http://i.imgur.com/YO5BHfwl.png"  width="250"/>
 
-#### Quick References
+#### [[Skills checklist|Designer Week 1 Skills Checklist]]
+
+#### [[Quick References|Designer Week 1 Quick References]]
 
 ### [[Week 2 - Custom feeds]]
 
