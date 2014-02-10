@@ -1,5 +1,3 @@
-### Week 1 Checklist
-
 #### Basics
 
 - Create and run an XCode project
