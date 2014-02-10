@@ -6,14 +6,15 @@ In terms of prototyping, the goal of the class is to provide the tools necessary
 
 ## Course Schedule
 
-### [[Week 1 - Basic views and layout]]
+### Week 1 - Basic views and layout
 
-<table>
-<tr>
-  <td>my list of topics</td>
-  <td><img src="http://i.imgur.com/YO5BHfwl.png" align="right" /></td>
-</tr>
-</table>
+We will be covering laying out basic views such as labels, images, and buttons in Interface Builder and programatically.
+
+### Homework
+
+<img src="http://i.imgur.com/YO5BHfwl.png" /><img src="http://i.imgur.com/YO5BHfwl.png" /><img src="http://i.imgur.com/YO5BHfwl.png" />
+
+### Quick References
 
 ### [[Week 2 - Custom feeds]]
 
