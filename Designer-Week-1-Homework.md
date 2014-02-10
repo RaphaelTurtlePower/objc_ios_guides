@@ -1,0 +1,11 @@
+- Create unscrollable detail view of Facebook post
+  - Demonstrates setting view properties: backgroundColor, cornerRadius, font, textColor, shadowOffset.
+  - Demonstrates buttons and image buttons.
+  - Demonstrates UIImageView and image assets.
+  - Optional: Configure the autoresizingMasks to support rotation
+  - Optional: setup CocoaPods
+  - Optional: Use TTTAttributedLabel to style the link and make it clickable
+  - Optional: Implement the same page without using Interface Builder
+- Group project
+  - ???
+- Find 1-3 lowpri issues that you’d like to learn how to fix
