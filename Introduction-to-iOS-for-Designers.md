@@ -6,15 +6,28 @@ In terms of prototyping, the goal of the class is to provide the tools necessary
 
 ## Course Schedule
 
+In the course schedule below, each week has two 2-hour sessions where will cover about a dozen different use cases related to the topic of the week. Each week has a "skills checklist" that you should be able to do by the end of the week. Each week also has a homework that applies the use cases that we cover in class.
+
 ### Week 1 - Basic views and layout
 
-We will be covering laying out basic views such as labels, images, and buttons in Interface Builder and programatically.
+We will be covering laying out basic views such as labels, images, and buttons in Interface Builder and programatically. We will be covering topics and use cases such as the following:
 
-### Homework
+- Basic
+  - Creating an empty XCode project and running in the simulator
+  - Adding standard and retina image assets to a project
+  - Changing the app icon and splash screen
+- Views and properties
+  - Views, Labels, Images, Buttons, Text Fields
+  - Interface Builder vs. Programmatic view design
+- Basic usage of navigation and tab bars
+
+#### Homework
 
 <img src="http://i.imgur.com/YO5BHfwl.png" /><img src="http://i.imgur.com/YO5BHfwl.png" /><img src="http://i.imgur.com/YO5BHfwl.png" />
 
-### Quick References
+#### Skills checklist
+
+#### Quick References
 
 ### [[Week 2 - Custom feeds]]
 
