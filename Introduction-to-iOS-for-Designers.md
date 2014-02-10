@@ -21,7 +21,7 @@ We will be covering laying out basic views such as labels, images, and buttons i
 
 #### Homework
 
-The homework this week is to make a non-scrollable version of a detailed view of a Facebook post. Full homework description is [[here|Designer Week 1 Homework]].
+The homework this week is to make a non-scrollable version of a detailed view of a Facebook post. Full homework description is [[here|Week 1 Homework]].
 
 <img src="http://i.imgur.com/N8PfLlf.png" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/bzanQSb.png"  width="250" />
 
