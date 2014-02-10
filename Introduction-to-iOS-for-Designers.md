@@ -4,7 +4,7 @@ In terms of prototyping, the goal of the class is to provide the tools necessary
 
 ## Course Schedule
 
-In the course schedule below, each week has two 2-hour sessions where will cover about a dozen different use cases related to the topic of the week. Each week has a "skills checklist" that you should be able to do by the end of the week. Each week also has a homework that applies the use cases that we cover in class.
+In the course schedule below, each week has two 2-hour sessions where we will cover about a dozen different use cases related to the topic of the week. Each week has a "skills checklist" that you should be able to do by the end of the week. Each week also has a homework that applies the use cases that we cover in class.
 
 ### Week 1 - Basic views and layout
 
@@ -23,7 +23,7 @@ We will be covering laying out basic views such as labels, images, and buttons i
 
 The homework this week is to make a non-scrollable version of a detailed view of a Facebook post. Full homework description is [[here|Designer Week 1 Homework]].
 
-<img src="http://i.imgur.com/YO5BHfwl.png" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/YO5BHfwl.png"  width="250" />&nbsp;&nbsp;<img src="http://i.imgur.com/YO5BHfwl.png"  width="250"/>
+<img src="http://i.imgur.com/N8PfLlf.png" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/bzanQSb.png"  width="250" />
 
 #### Other links
 
