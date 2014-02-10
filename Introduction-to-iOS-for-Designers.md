@@ -25,9 +25,10 @@ The homework this week is to make a non-scrollable version of a detailed view of
 
 <img src="http://i.imgur.com/YO5BHfwl.png" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/YO5BHfwl.png"  width="250" />&nbsp;&nbsp;<img src="http://i.imgur.com/YO5BHfwl.png"  width="250"/>
 
-#### [[Skills checklist|Designer Week 1 Skills Checklist]]
+#### Other links
 
-#### [[Quick References|Designer Week 1 Quick References]]
+- [[Skills checklist|Designer Week 1 Skills Checklist]]
+- [[Quick References|Designer Week 1 Quick References]]
 
 ### [[Week 2 - Custom feeds]]
 
