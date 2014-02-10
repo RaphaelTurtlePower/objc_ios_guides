@@ -1,0 +1,12 @@
+- Objective-C
+  - Importing the view controller into the app delegate
+  - Allocate a view controller
+  - Create a CGRect frame
+  - Allocate a view (UILabel, UIView, etc) w/ a frame
+  - Set view properties
+  - Setting the rootViewController of the window
+
+- XCode
+  - Create an empty XCode project
+  - Create a new view controller w/ nib
+  - Connecting an outlet
