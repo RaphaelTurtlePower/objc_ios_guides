@@ -30,12 +30,12 @@ The homework this week is to make a non-scrollable version of a detailed view of
 - [[Week 1 Skills checklist|Designer Week 1 Skills Checklist]]
 - [[Week 1 Quick References|Designer Week 1 Quick References]]
 
-### [[Week 2 - Custom feeds]]
+### Week 2 - Custom feeds
 
-### [[Week 3 - Navigation and Modals]]
+### Week 3 - Navigation and Modals
 
-### [[Week 4 - Gestures and Events]]
+### Week 4 - Gestures and Events
 
-### [[Week 5 - Animation]]
+### Week 5 - Animation
 
 ### Week 6 - TBD
