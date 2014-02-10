@@ -4,6 +4,8 @@
   - Demonstrates setting view properties: backgroundColor, cornerRadius, font, textColor, shadowOffset.
   - Demonstrates buttons and image buttons.
   - Demonstrates UIImageView and image assets.
+  - Demonstrates UITextField
+  - Optional: Move the textfield when the keyboard appears
   - Optional: Configure the autoresizingMasks to support rotation
   - Optional: Setup CocoaPods for managing 3rd party libraries
   - Optional: Use TTTAttributedLabel to style the link and make it clickable
