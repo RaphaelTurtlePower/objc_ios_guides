@@ -10,4 +10,4 @@ Read about our [mission to change the way engineers learn new technologies](http
 
 ## Courses
 
-[[Introduction to iOS for Designers]]
+[[Introduction to iOS for Designers]] - This is an introductory course to iOS that is targeted to designers. 
