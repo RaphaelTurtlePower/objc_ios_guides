@@ -24,13 +24,20 @@
 #### Buttons
 
 - Add a button and configure image and title
-- 
+- Change images for normal, highlighted, selected, and disabled states
+- Nudge image and title via insets
 
 #### Text Fields
 
 - Add a text field and modify border
 - Modify keyboard type and appearance
 - Add a background image
+
+#### Navigation Bar
+
+- Change navigation bar color
+- Change navigation title
+- Add buttons to the left and right
 
 #### Views
 
