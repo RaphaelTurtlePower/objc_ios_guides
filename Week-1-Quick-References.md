@@ -22,7 +22,7 @@ If you want to access an object that you created in Interface Builder, you have 
 
   - Importing the view controller into the app delegate (or any file that you want to use the view controller in)
 
-```smalltalk
+```objective-c
 #import "MyViewController.h"
 
 @implementation AppDelegate
@@ -35,25 +35,25 @@ If you want to access an object that you created in Interface Builder, you have 
 ```
   - Allocate a view controller
 
-```smalltalk
+```objective-c
 MyViewController *myViewController = [[MyViewController alloc] init];
 ```
 
   - Setting the rootViewController of the window
 
-```smalltalk
+```objective-c
 self.window.rootViewController = myViewController;
 ```
 
   - Create a CGRect frame
 
-```smalltalk
+```objective-c
 CGRect frame = CGRectMake(0,0,100,20);
 ```
 
   - Allocate a view (UILabel, UIView, etc) w/ a frame
 
-```smalltalk
+```objective-c
 UIView *view = [[UIView alloc] initWithFrame:frame];
 UILabel *label = [[UILabel alloc] initWithFrame:labelFrame];
 [view addSubview:label];
@@ -61,13 +61,13 @@ UILabel *label = [[UILabel alloc] initWithFrame:labelFrame];
 
   - Set view properties
 
-```smalltalk
+```objective-c
 view.backgroundColor = [UIColor blueColor];
 ```
 
   - Moving a UITextField when the keyboard appears and disappears
 
-```smalltalk
+```objective-c
 
 @interface MainViewController ()
 
