@@ -19,10 +19,97 @@ If you want to access an object that you created in Interface Builder, you have 
 <img src="http://i.imgur.com/MKFzvh8.gif" width="678" height="340" />
 
 ### Objective-C
-  - Importing the view controller into the app delegate
+
+  - Importing the view controller into the app delegate (or any file that you want to use the view controller in)
+
+```smalltalk
+#import "MyViewController.h"
+
+@implementation AppDelegate
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+...
+}
+
+@end
+```
   - Allocate a view controller
-  - Create a CGRect frame
-  - Allocate a view (UILabel, UIView, etc) w/ a frame
-  - Set view properties
+
+```smalltalk
+MyViewController *myViewController = [[MyViewController alloc] init];
+```
+
   - Setting the rootViewController of the window
 
+```smalltalk
+self.window.rootViewController = myViewController;
+```
+
+  - Create a CGRect frame
+
+```smalltalk
+CGRect frame = CGRectMake(0,0,100,20);
+```
+
+  - Allocate a view (UILabel, UIView, etc) w/ a frame
+
+```smalltalk
+UIView *view = [[UIView alloc] initWithFrame:frame];
+UILabel *label = [[UILabel alloc] initWithFrame:labelFrame];
+[view addSubview:label];
+```
+
+  - Set view properties
+
+```smalltalk
+view.backgroundColor = [UIColor blueColor];
+```
+
+  - Moving a UITextField when the keyboard appears and disappears
+
+```smalltalk
+
+@interface MainViewController ()
+
+// Declare some methods that will be called when the keyboard is about to be shown or hidden
+- (void)willShowKeyboard:(NSNotification *)notification;
+- (void)willHideKeyboard:(NSNotification *)notification;
+
+@end
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Register the methods for the keyboard hide/show events
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(willShowKeyboard:) name:UIKeyboardWillShowNotification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(willHideKeyboard:) name:UIKeyboardWillHideNotification object:nil];
+    }
+    return self;
+}
+
+- (void)willShowKeyboard:(NSNotification *)notification {
+    NSDictionary *userInfo = [notification userInfo];
+    
+    // Get the keyboard height and width from the notification
+    // Size varies depending on OS, language, orientation
+    CGSize kbSize = [[userInfo objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size;
+    NSLog(@"Height: %f Width: %f", kbSize.height, kbSize.width);
+
+    // Get the animation duration and curve from the notification
+    NSNumber *durationValue = userInfo[UIKeyboardAnimationDurationUserInfoKey];
+    NSTimeInterval animationDuration = durationValue.doubleValue;
+    NSNumber *curveValue = userInfo[UIKeyboardAnimationCurveUserInfoKey];
+    UIViewAnimationCurve animationCurve = curveValue.intValue;
+    
+    // Move the view with the same duration and animation curve so that it will match with the keyboard animation
+    [UIView animateWithDuration:animationDuration
+                          delay:0.0
+                        options:(animationCurve << 16)
+                     animations:^{
+                         self.commentImageView.frame = CGRectMake(0, self.view.frame.size.height - kbSize.height - self.commentImageView.frame.size.height, self.commentImageView.frame.size.width, self.commentImageView.frame.size.height);
+                     }
+                     completion:nil];
+}
+
+```
