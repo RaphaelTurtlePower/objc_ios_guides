@@ -1,6 +1,6 @@
 <img src="http://i.imgur.com/7IuFoEul.png" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/N8PfLlf.png" width="250"/>
 
-- Create a scrollable view of Facebook notifications, such as the one above
+- Create a scrollable view of Facebook notifications, such as the one above. Read the required and optional items below.
   - Create a custom cell for the notification 
   - Create a Notification model class with properties for profilePicUrl, text, iconUrl, timestamp
   - Set the left navigation bar icon to the search icon
