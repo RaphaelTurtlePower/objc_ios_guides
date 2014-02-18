@@ -45,9 +45,9 @@ We will be covering creating custom UITableViews with dynamic row heights popula
 
 #### Homework
 
-The homework this week is to make a non-scrollable version of a detailed view of a Facebook post. Full homework description is [[here|Week 2 Homework]].
+The homework this week is to make a scrollable version of the Facebook notifications view. Full homework description is [[here|Week 2 Homework]].
 
-<img src="http://i.imgur.com/7IuFoEul.png" width="250"/>
+<img src="http://i.imgur.com/7IuFoEul.png" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/N8PfLlf.png" width="250"/>
 
 #### Other links
 
