@@ -2,6 +2,13 @@ This bootcamp is optimized for empowering designers to modify the view and anima
 
 In terms of prototyping, the goal of the class is to provide the tools necessary to build rich, interactive mocks using Objective-C instead of Quartz Composer and other tools. While the bootcamps will not cover enough topics to make the prototypes fully functional, that would be the logical next step.
 
+## Course Policies
+
+In order to finish the course successfully, there are a few course policies:
+
+- Attendance. There is one excused absence allowed where acceptable excuses include illness, work, or personal travel. If you have travel plans, please let me know as soon as possible. No unexcused absences are allowed.
+- Weekly homework submissions. There is weekly homework described in the course schedule below. Submission instructions are in the detailed links.
+
 ## Course Schedule
 
 In the course schedule below, each week has two 2-hour sessions where we will cover about a dozen different use cases related to the topic of the week. Each week has a "skills checklist" that you should be able to do by the end of the week. Each week also has a homework that applies the use cases that we cover in class.
