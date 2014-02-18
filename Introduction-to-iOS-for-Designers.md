@@ -32,10 +32,32 @@ The homework this week is to make a non-scrollable version of a detailed view of
 
 ### Week 2 - Custom feeds
 
-### Week 3 - Navigation and Modals
+We will be covering creating custom UITableViews with dynamic row heights populated with modeled data. We will be covering topics and use cases such as the following:
 
-### Week 4 - Gestures and Events
+- Table Views
+  - Specifying the number of rows and sections
+  - Designing custom cells
+  - Using plain and grouped table views
+  - Setting headers and footers
+- Models
+  - Specifying model properties
+  - Instantiating fake data
 
-### Week 5 - Animation
+#### Homework
+
+The homework this week is to make a non-scrollable version of a detailed view of a Facebook post. Full homework description is [[here|Week 2 Homework]].
+
+<img src="http://i.imgur.com/7IuFoEul.png" width="250"/>
+
+#### Other links
+
+- [[Week 2 Skills checklist|Designer Week 2 Skills Checklist]]
+- [[Week 2 Quick References|Week 2 Quick References]]
+
+### Week 3 - Gestures and Events
+
+### Week 4 - Animation
+
+### Week 5 - Navigation and Modals
 
 ### Week 6 - TBD
