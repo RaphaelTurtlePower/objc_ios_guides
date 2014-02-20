@@ -23,3 +23,54 @@ The implementation is empty because the properties are automatically synthesized
 
 @end
 ```
+
+That's it for the basic declaration!
+
+### Creating Models from Arrays and Dictionaries
+
+Most APIs return their data in JSON arrays and dictionaries. For example, here's an excerpt of the data returned by Twitter.
+
+```
+{
+  "id": 240558470661799936,
+  "created_at": "Tue Aug 28 21:16:23 +0000 2012",
+  "text": "I love sharing everything on Twitter",
+  "user": {
+    "id": 119476949,
+    "name": "John Smith",
+    "location": "San Francisco, CA",
+    "url": "http://johnsmith.com",
+    "profile_image_url_https": "https://si0.twimg.com/profile_images/730275945/john_happy.jpg",
+  },
+}
+```
+
+After receiving that JSON dictionary from Twitter, its convenient to be able to create your models directly from that dictionary. In addition, you'll commonly receive an array of dictionaries from the API, so it would be convenient if there were a method to create an array of Users from the array of dictionaries.
+
+```
+@interface User : NSObject
+
+...
+
+- (id)initWithDictionary:(NSDictionary *)dictionary;
++ (NSArray *)usersWithArray:(NSArray *)array;
+
+@end
+```
+
+```
+@implementation User
+
+- (id)initWithDictionary:(NSDictionary *)dictionary {
+  self = [super init];
+  if (self) {
+    self.name = dictionary[@"name"];
+    self.profilePicUrl = dictionary[@"profile_image_url_https"];
+    self.location = dictionary[@"location"];
+  }
+
+  return self;
+}
+
+@end
+```
