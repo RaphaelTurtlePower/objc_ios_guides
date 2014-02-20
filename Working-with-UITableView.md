@@ -4,6 +4,8 @@ Table views are the center of many iOS applications and have many features to cu
 
 <img src="http://i.imgur.com/rYbUIR1.png" />
 
+Download the sample code [here](https://github.com/thecodepath/ios_guides/tree/master/demos/SimpleTableView).
+
 ### Implementation
 
 #### Step 1 - Create a view controller
