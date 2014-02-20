@@ -59,7 +59,7 @@ The homework this week is to make a scrollable version of the Facebook notificat
 #### Other links
 
 - [[Week 2 Skills checklist|Designer Week 2 Skills Checklist]]
-- Week 2 Quick References|Week 2 Quick References
+- Week 2 Quick References
   - [[Creating a Model]]
   - [[Working with UITableView]]
   - [[Setting up UITabBarController]]
