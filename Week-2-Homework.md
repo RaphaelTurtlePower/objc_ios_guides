@@ -17,3 +17,10 @@
 - To submit your weekly coding assignment, email me your Github repository URL or email me a zip file of your project.
 - Email me screenshots of your paper wireframes or digital wireframes.
 - Email me 1-3 lowpri production issues from any Facebook app (Facebook, Messenger, Instagram, etc).
+
+### Quick References
+
+- [[Creating a Model]]
+- [[Working with UITableView]]
+- [[Setting up UITabBarController]]
+- [[Downloading an image into UIImageView]]
