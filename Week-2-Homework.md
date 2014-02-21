@@ -9,14 +9,12 @@
   - Optional: Implement a scrollable version of news feed that contains your post from the Week 1 assignment
 - Group project
   - Create paper or digital wireframes. The purpose of the wireframes is to capture the user tasks, not visuals. Buttons and gestures should be documented. Click [here](http://i.imgur.com/kfWh6Lv.jpg) for an example of some well-documented, low-fidelity wireframes.
-- Find 1-3 lowpri production issues from any Facebook app (Facebook, Messenger, Instagram, etc) that you’d like to learn how to fix.
 
 ### Submission instructions
 
 - Submit all the items above by next Monday at 5pm.
 - To submit your weekly coding assignment, email me your Github repository URL or email me a zip file of your project.
 - Email me screenshots of your paper wireframes or digital wireframes.
-- Email me 1-3 lowpri production issues from any Facebook app (Facebook, Messenger, Instagram, etc).
 
 ### Quick References
 
