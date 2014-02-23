@@ -26,7 +26,7 @@ The snippet above assumes that you've declared the helper methods below. Use wha
 
 ```
 - (NSString *)styledHTMLwithHTML:(NSString *)HTML {
-    NSString *style = @"<style> body { font-family: 'HelveticaNeue'; font-size: 20px; } b {font-family: 'MarkerFelt-Wide'; }</style>";
+    NSString *style = @"<meta charset=\"UTF-8\"><style> body { font-family: 'HelveticaNeue'; font-size: 20px; } b {font-family: 'MarkerFelt-Wide'; }</style>";
     
     return [NSString stringWithFormat:@"%@%@", style, HTML];
 }
