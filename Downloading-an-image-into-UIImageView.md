@@ -4,9 +4,9 @@ To make this process easier, there are many libraries that have added a category
 
 ### Add AFNetworking to the project
 
-Add AFNetworking to the project by downloading it [here](https://github.com/AFNetworking/AFNetworking) (click on Download ZIP on the right toolbar) and dragging it into your project. Be sure to click "Copy items into destination folder".
+Add AFNetworking to the project by downloading it [here](https://github.com/AFNetworking/AFNetworking) (click on Download ZIP on the right toolbar). Open the AFNetworking folder and drag the subfolders called AFNetworking and UIKit+AFNetworking into your project. Be sure to click "Copy items into destination folder".
 
-<img src=http://i.imgur.com/HqccIFp.gif width="391" height="215"/>
+<img src="http://i.imgur.com/kTyujQ0.gif" width="693" height="287"/>
 
 ### Using UIImageView+AFNetworking
 
