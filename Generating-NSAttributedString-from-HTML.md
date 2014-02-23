@@ -39,6 +39,6 @@ The snippet above assumes that you've declared the helper methods below. Use wha
 
 ### Advanced Alternatives
 
-Libraries such as [TTTAttributedLabel](https://github.com/mattt/TTTAttributedLabel) and [OHAttributedLabel](https://github.com/AliSoftware/OHAttributedLabel) have existed for many years to alleviate this problem, but slowly Apple is adding better native support for handling HTML and TextKit in iOS 7 represents a giant leap forward in the amount of control iOS developers have in text layout.
+Libraries such as [TTTAttributedLabel](https://github.com/mattt/TTTAttributedLabel) and [OHAttributedLabel](https://github.com/AliSoftware/OHAttributedLabel) have existed for many years to alleviate this problem, but slowly Apple is adding better native support for handling HTML, and TextKit in iOS 7 represents a giant leap forward in the amount of control iOS developers have in text layout.
 
 For now, [DTCoreText](https://github.com/Cocoanetics/DTCoreText) remains the library to use for any iOS developer that wants serious control over their text.
