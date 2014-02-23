@@ -7,15 +7,23 @@ To create the tab bar controller in the image above, create a UITabBarController
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    
+    // Create the two view controllers, each within a navigation controller
     FirstViewController *firstViewController = [[FirstViewController alloc] init];
     UINavigationController *firstNavigationController = [[UINavigationController alloc] initWithRootViewController:firstViewController];
     
     SecondViewController *secondViewController = [[SecondViewController alloc] init];
     UINavigationController *secondNavigationController = [[UINavigationController alloc] initWithRootViewController:secondViewController];
     
+    // Configure the tab bar controller with the two navigation controllers
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
     tabBarController.viewControllers = @[firstNavigationController, secondNavigationController];
+    
+    // Configure the titles and images of the tab bar items
+    firstNavigationController.tabBarItem.title = @"First";
+    firstNavigationController.tabBarItem.image = [UIImage imageNamed:@"House"];
+    
+    secondNavigationController.tabBarItem.title = @"Second";
+    secondNavigationController.tabBarItem.image = [UIImage imageNamed:@"Martini"];
     
     self.window.rootViewController = tabBarController;
     
@@ -27,15 +35,4 @@ To create the tab bar controller in the image above, create a UITabBarController
 
 ### Configuring the Tab Bar Item
 
-You can configure the title, image, and selected image of the tab bar item in each view controller. Note that since the navigation controller is the actual view controller contained by the UITabBarController, you have to configure the tab bar item of the navigation controller, not the view controller.
-
-```
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-
-    self.navigationController.tabBarItem.title = @"First";
-    self.navigationController.tabBarItem.image = [UIImage imageNamed:@"House"];
-}
-```
-
+You can configure the title, image, and selected image of the tab bar item in each view controller. Note that since the navigation controller is the actual view controller contained by the UITabBarController, you have to configure the tab bar item of the navigation controller, not the view controller. The snippet above demonstrates setting the title and icon of the tab bar items.
