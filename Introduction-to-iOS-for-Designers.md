@@ -64,6 +64,7 @@ The homework this week is to make a scrollable version of the Facebook notificat
   - [[Working with UITableView]]
   - [[Setting up UITabBarController]]
   - [[Downloading an image into UIImageView]]
+  - [[Generating NSAttributedString from HTML]]
 
 ### Week 3 - Gestures and Events
 
