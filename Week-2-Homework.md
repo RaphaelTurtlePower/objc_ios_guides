@@ -5,6 +5,7 @@
   - Create a Notification model class with properties for profilePicUrl, text, iconUrl, timestamp
   - Set the left navigation bar icon to the search icon
   - Set the right navigation bar icon to the messages icon
+  - Images can be loaded locally or from a URL. The quick references below demonstrate an easy way to load them from a URL
   - Optional: Implement a functioning tab bar that can be switched between news feed and notifications
   - Optional: Implement a scrollable version of news feed that contains your post from the Week 1 assignment
 - Group project
@@ -22,3 +23,4 @@
 - [[Working with UITableView]]
 - [[Setting up UITabBarController]]
 - [[Downloading an image into UIImageView]]
+- [[Generating NSAttributedString from HTML]]
