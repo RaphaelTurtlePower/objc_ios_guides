@@ -22,7 +22,7 @@ NSAttributedString *attributedText = [self attributedStringWithHTML:styledHtml];
 label.attributedText = attributedText;
 ```
 
-The snippet above assumes that you've declared the helper methods below. Use whatever CSS style you like to easily control the text styling. Unfortunately, its not well documented what subset of CSS is supported, but many simple styles are supported.
+The snippet above assumes that you've declared the helper methods below. Use whatever CSS style you like to easily control the text styling. Unfortunately, it's not well documented what subset of CSS is supported, but many simple styles are supported.
 
 ```
 - (NSString *)styledHTMLwithHTML:(NSString *)HTML {
