@@ -101,23 +101,21 @@ If you're not connected to an API yet, its convenient to have a way to create fa
 @implementation User
 
 + (NSArray *)fakeUsers {
-  NSArray *fakeUserDictionaries = 
+NSArray *fakeUserDictionaries =
     @[
-       @{ @"user": {
-          @"id": @(119476949),
-          @"name": @"John Smith",
-          @"location": @"San Francisco, CA",
-          @"url": @"http://johnsmith.com",
-          @"profile_image_url_https": @"https://si0.twimg.com/profile_images/730275945/john_happy.jpg",
-        },
-       @{ @"user": {
-          @"id": @(119476949),
-          @"name": @"Jane Smith",
-          @"location": @"San Francisco, CA",
-          @"url": @"http://janesmith.com",
-          @"profile_image_url_https": @"https://si0.twimg.com/profile_images/730275945/jane_happy.jpg",
-        }
-     ];
+      @{@"id": @(119476949),
+        @"name": @"John Smith",
+        @"location": @"San Francisco, CA",
+        @"url": @"http://johnsmith.com",
+        @"profile_image_url_https": @"https://si0.twimg.com/profile_images/730275945/john_happy.jpg",
+      },
+      @{@"id": @(119476949),
+        @"name": @"Jane Smith",
+        @"location": @"San Francisco, CA",
+        @"url": @"http://janesmith.com",
+        @"profile_image_url_https": @"https://si0.twimg.com/profile_images/730275945/jane_happy.jpg",
+      }
+    ];
 
   return [User usersWithArray:fakeUserDictionaries];
 }
