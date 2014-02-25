@@ -24,6 +24,9 @@ It is common to create the gesture recognizers in the `viewDidLoad' method, as s
    // The onCustomTap: method will be defined in Step 3 below.
    UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(onCustomTap:)];
 
+   // Optionally set the number of required taps, e.g., 2 for a double click
+   tapGestureRecognizer.numberOfTapsRequired = 2;
+
    // Attach it to a view of your choice. If its a UIImageView, remember to enable user interaction
    [self.view addGestureRecognizer:tapGestureRecognizer];
 }
