@@ -17,10 +17,24 @@ There are many builtin gesture recognizers in iOS, and you can also create your 
 
 It is common to create the gesture recognizers in the `viewDidLoad' method, as shown below. After you create the gesture recognizer, attach it to the view you want to detect gestures on.
 
+#### Example 1: Tap gesture recognizer
+
 ```
 - (void)viewDidLoad {
-   // The onTap: method will be defined in Step 3 below.
-   UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(onTap:)];
+   // The onCustomTap: method will be defined in Step 3 below.
+   UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(onCustomTap:)];
+
+   // Attach it to a view of your choice. If its a UIImageView, remember to enable user interaction
+   [self.view addGestureRecognizer:tapGestureRecognizer];
+}
+```
+
+#### Example 2: Pan gesture recognizer
+
+```
+- (void)viewDidLoad {
+   // The onCustomPan: method will be defined in Step 3 below.
+   UIPanGestureRecognizer *panGestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(onCustomPan:)];
 
    // Attach it to a view of your choice. If its a UIImageView, remember to enable user interaction
    [self.view addGestureRecognizer:tapGestureRecognizer];
@@ -31,11 +45,13 @@ It is common to create the gesture recognizers in the `viewDidLoad' method, as s
 
 When the gesture recognizer detects the gesture, it will call the event handler method on the target. The event handler method is specified when you created the gesture recognizer in Step 2. Declare the method in the interface and implement it.
 
+#### Example 1: Tap gesture recognizer
+
 ```
 @interface YourViewController
 
 // If you're using a different gesture recognizer (pinch, pan, etc), be sure to change the type below.
-- (void)onTap:(UITapGestureRecognizer *)tapGestureRecognizer;
+- (void)onCustomTap:(UITapGestureRecognizer *)tapGestureRecognizer;
 
 @end
 ```
@@ -44,7 +60,31 @@ When the gesture recognizer detects the gesture, it will call the event handler 
 @implementation YourViewController
 
 - (void)onTap:(UITapGestureRecognizer *)tapGestureRecognizer {
-   // Implement your magic here.
+   CGPoint point = [tapGestureRecognizer locationInView:self.view];
+
+   // User tapped at the point above. Do something with that if you want.
+}
+
+```
+
+#### Example 2: Pan gesture recognizer
+
+```
+@interface YourViewController
+
+// If you're using a different gesture recognizer (pinch, pan, etc), be sure to change the type below.
+- (void)onCustomPan:(UIPanGestureRecognizer *)panGestureRecognizer;
+
+@end
+```
+
+```
+@implementation YourViewController
+
+- (void)onCustomPan:(UIPanGestureRecognizer *)panGestureRecognizer {
+   CGPoint point = [tapGestureRecognizer locationInView:self.view];
+
+   // User is currently dragging and is at the the point above. Do something with that if you want.
 }
 
 ```
@@ -52,6 +92,8 @@ When the gesture recognizer detects the gesture, it will call the event handler 
 ### Step 4: Handling events
 
 Gesture recognizers call the same selector as it transitions through states. For example, a pan gesture recognizer calls the selector when the user first touches down on the view, and then it calls the selector repeatedly as the user drags their finger across the screen, and finally it calls the selector one last time when the user lifts their finger off the screen.
+
+#### Example 1: Pan gesture recognizer
 
 ```
 - (void)onPan:(UIPanGestureRecognizer *)panGestureRecognizer {
