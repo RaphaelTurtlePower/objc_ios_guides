@@ -48,6 +48,8 @@ It is common to create the gesture recognizers in the `viewDidLoad` method, as s
 
 When the gesture recognizer detects the gesture, it will call the event handler method on the target. The event handler method is specified when you created the gesture recognizer in Step 2. Declare the method in the interface and implement it.
 
+Gesture recognizers call the same selector as it transitions through various states. For example, a pan gesture recognizer calls the selector when the user first touches down on the view, and then it calls the selector repeatedly as the user drags their finger across the screen, and finally it calls the selector one last time when the user lifts their finger off the screen.
+
 #### Example 1: Tap gesture recognizer
 
 ```
@@ -85,30 +87,15 @@ When the gesture recognizer detects the gesture, it will call the event handler 
 @implementation YourViewController
 
 - (void)onCustomPan:(UIPanGestureRecognizer *)panGestureRecognizer {
-   CGPoint point = [tapGestureRecognizer locationInView:self.view];
-
-   // User is currently dragging and is at the the point above. Do something with that if you want.
-}
-
-```
-
-### Step 4: Handling events
-
-Gesture recognizers call the same selector as it transitions through states. For example, a pan gesture recognizer calls the selector when the user first touches down on the view, and then it calls the selector repeatedly as the user drags their finger across the screen, and finally it calls the selector one last time when the user lifts their finger off the screen.
-
-#### Example 1: Pan gesture recognizer
-
-```
-- (void)onPan:(UIPanGestureRecognizer *)panGestureRecognizer {
-    CGPoint point = [panGestureRecognizer locationInView:self.view];
-    CGPoint velocity = [panGestureRecognizer velocityInView:self.view];
+   CGPoint point = [panGestureRecognizer locationInView:self.view];
+   CGPoint velocity = [panGestureRecognizer velocityInView:self.view];
     
-    if (panGestureRecognizer.state == UIGestureRecognizerStateBegan) {
-        NSLog(@"Gesture began at: %@", NSStringFromCGPoint(point));
-    } else if (panGestureRecognizer.state == UIGestureRecognizerStateChanged) {
-        NSLog(@"Gesture changed: %@", NSStringFromCGPoint(point));
-    } else if (panGestureRecognizer.state == UIGestureRecognizerStateEnded) {
-        NSLog(@"Gesture ended: %@", NSStringFromCGPoint(point));
-    }
+   if (panGestureRecognizer.state == UIGestureRecognizerStateBegan) {
+      NSLog(@"Gesture began at: %@", NSStringFromCGPoint(point));
+   } else if (panGestureRecognizer.state == UIGestureRecognizerStateChanged) {
+      NSLog(@"Gesture changed: %@", NSStringFromCGPoint(point));    
+   } else if (panGestureRecognizer.state == UIGestureRecognizerStateEnded) {
+      NSLog(@"Gesture ended: %@", NSStringFromCGPoint(point));
+   }
 }
 ```
