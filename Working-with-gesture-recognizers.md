@@ -51,7 +51,7 @@ When the gesture recognizer detects the gesture, it will call the event handler 
 
 ### Step 4: Handling events
 
-Gesture recognizers call the same selector as it transitions through states. For example, a pan gesture recognizer calls the selector that the user touches down on the view, and then it calls the selector repeatedly as the user drags their finger across the screen, and finally it calls the selector one last time when the user lifts their finger off the screen.
+Gesture recognizers call the same selector as it transitions through states. For example, a pan gesture recognizer calls the selector when the user first touches down on the view, and then it calls the selector repeatedly as the user drags their finger across the screen, and finally it calls the selector one last time when the user lifts their finger off the screen.
 
 ```
 - (void)onPan:(UIPanGestureRecognizer *)panGestureRecognizer {
