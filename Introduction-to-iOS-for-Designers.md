@@ -84,7 +84,7 @@ We will be covering view animations and interactions via gestures such as tap, p
 
 The homework this week is to make an interactive mock of the Paper navigation. Full homework description is [[here|Week 3 Homework]].
 
-<img src="http://i.imgur.com/LUlV6x1.gif" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/LUlV6x1.gif" width="250"/>
+<img src="http://i.imgur.com/1BNYyRK.gif" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/LUlV6x1.gif" width="250"/>
 
 #### Other links
 
