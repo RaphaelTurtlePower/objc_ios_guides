@@ -66,10 +66,35 @@ The homework this week is to make a scrollable version of the Facebook notificat
   - [[Downloading an image into UIImageView]]
   - [[Generating NSAttributedString from HTML]]
 
-### Week 3 - Gestures and Events
+### Week 3 - Animation and Gestures
 
-### Week 4 - Animation
+We will be covering view animations and interactions via gestures such as tap, pan, swipe, pinch, and rotate. We will be covering topics and use cases such as the following:
 
-### Week 5 - Navigation and Modals
+- Animation
+  - Animation of properties such as color, frame, and alpha
+  - Animation options such as repeat and reverse
+  - Damping ratio and spring velocity
+  - Working with affine transforms
+- Gestures
+  - Attaching gestures to views
+  - Accessing location, velocity, rotation, and scale
+  - Processing gesture state
+
+#### Homework
+
+The homework this week is to make an interactive mock of the Paper navigation. Full homework description is [[here|Week 3 Homework]].
+
+<img src="http://i.imgur.com/LUlV6x1.gif" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/LUlV6x1.gif" width="250"/>
+
+#### Other links
+
+- [[Week 3 Skills checklist|Designer Week 3 Skills Checklist]]
+- Week 3 Quick References
+  - [[Basic animation]]
+  - [[Working with gesture recognizers]]
+
+### Week 4 - Events
+
+### Week 5 - Custom views
 
 ### Week 6 - TBD
