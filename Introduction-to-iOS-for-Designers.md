@@ -92,6 +92,7 @@ The homework this week is to make an interactive mock of the Paper navigation. F
 - Week 3 Quick References
   - [[Basic animation]]
   - [[Working with gesture recognizers]]
+  - [[Timers]]
 
 ### Week 4 - Events
 
