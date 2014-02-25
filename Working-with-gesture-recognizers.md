@@ -15,7 +15,7 @@ There are many builtin gesture recognizers in iOS, and you can also create your 
 
 ### Step 2: Instantiate the gesture recognizer
 
-It is common to create the gesture recognizers in the `viewDidLoad' method, as shown below. After you create the gesture recognizer, attach it to the view you want to detect gestures on.
+It is common to create the gesture recognizers in the `viewDidLoad` method, as shown below. After you create the gesture recognizer, attach it to the view you want to detect gestures on.
 
 #### Example 1: Tap gesture recognizer
 
