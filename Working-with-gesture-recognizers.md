@@ -21,6 +21,8 @@ It is common to create the gesture recognizers in the `viewDidLoad' method, as s
 - (void)viewDidLoad {
    // The onTap: method will be defined in Step 3 below.
    UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(onTap:)];
+
+   // Attach it to a view of your choice. If its a UIImageView, remember to enable user interaction
    [self.view addGestureRecognizer:tapGestureRecognizer];
 }
 ```
