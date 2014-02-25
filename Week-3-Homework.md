@@ -20,3 +20,4 @@
 
 - [[Basic animation]]
 - [[Working with gesture recognizers]]
+- [[Timers]]
