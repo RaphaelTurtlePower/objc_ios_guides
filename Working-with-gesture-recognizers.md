@@ -64,7 +64,7 @@ Gesture recognizers call the same selector as it transitions through various sta
 ```
 @implementation YourViewController
 
-- (void)onTap:(UITapGestureRecognizer *)tapGestureRecognizer {
+- (void)onCustomTap:(UITapGestureRecognizer *)tapGestureRecognizer {
    CGPoint point = [tapGestureRecognizer locationInView:self.view];
 
    // User tapped at the point above. Do something with that if you want.
