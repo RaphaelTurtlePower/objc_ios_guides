@@ -147,9 +147,16 @@ The homework this week is to make an interactive mock of a simplified Paper "Edi
   - [[Presenting Modal View Controllers]]
   - [[Working with UIKit Dynamics]]
 
-### Week 6 - TBD
+### Week 6 - UICollectionView with UIKit Dynamics
 
-We will be covering TBD. We will be covering topics and use cases such as the following:
+We will be covering working with UICollectionView and integrating it with UIKit Dynamics. We will be covering topics and use cases such as the following:
+
+- UICollectionView
+  - Custom collection view cells
+  - Using UICollectionViewFlowLayout for grid views
+- UICollectionView with UIKit Dynamics
+  - e.g., accordion scrolling in iMessages
+  - e.g., menu in Paper
 
 #### Homework
 
