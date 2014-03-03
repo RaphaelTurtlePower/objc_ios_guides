@@ -135,6 +135,7 @@ We will be covering events and delegates and making stateful applications. We wi
   - Mocking an transient loading state
   - Transitioning between empty and populated states
   - Showing popover views
+  - Performing selectors after delays
 
 #### Homework
 
