@@ -1,3 +1,7 @@
+### Overview
+
+<img src="http://i.imgur.com/hmTooMm.gif" width="250" />
+
 ### Step 1: Create the UIDynamicAnimator
 
 The UIDynamicAnimator is the brains behind the dynamics in the view. There is one instance of UIDynamicAnimator for all the dynamic views, it is the bridge between UIKit and the physics engine, and contains all the "behaviors" such as gravity and collision detection.
