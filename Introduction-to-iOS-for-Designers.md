@@ -37,92 +37,7 @@ The homework this week is to make a non-scrollable version of a detailed view of
 - [[Week 1 Skills checklist|Designer Week 1 Skills Checklist]]
 - [[Week 1 Quick References|Week 1 Quick References]]
 
-### Week 2 - Custom feeds
-
-We will be covering creating custom UITableViews with dynamic row heights populated with modeled data. We will be covering topics and use cases such as the following:
-
-- Table Views
-  - Specifying the number of rows and sections
-  - Designing custom cells
-  - Using plain and grouped table views
-  - Setting headers and footers
-- Models
-  - Specifying model properties
-  - Instantiating fake data
-
-#### Homework
-
-The homework this week is to make a scrollable version of the Facebook notifications view. Full homework description is [[here|Week 2 Homework]].
-
-<img src="http://i.imgur.com/7IuFoEul.png" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/N8PfLlf.png" width="250"/>
-
-#### Other links
-
-- [[Week 2 Skills checklist|Designer Week 2 Skills Checklist]]
-- Week 2 Quick References
-  - [[Creating a Model]]
-  - [[Working with UITableView]]
-  - [[Setting up UITabBarController]]
-  - [[Downloading an image into UIImageView]]
-  - [[Generating NSAttributedString from HTML]]
-
-### Week 3 - Animation and Gestures
-
-We will be covering view animations and interactions via gestures such as tap, pan, swipe, pinch, and rotate. We will be covering topics and use cases such as the following:
-
-- Animation
-  - Animation of properties such as color, frame, and alpha
-  - Animation options such as repeat and reverse
-  - Damping ratio and spring velocity
-  - Working with affine transforms
-- Gestures
-  - Attaching gestures to views
-  - Accessing location, velocity, rotation, and scale
-  - Processing gesture state
-
-#### Homework
-
-The homework this week is to make an interactive mock of the Paper navigation. Full homework description is [[here|Week 3 Homework]].
-
-<img src="http://i.imgur.com/1BNYyRK.gif" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/LUlV6x1.gif" width="250"/>
-
-#### Other links
-
-- [[Week 3 Skills checklist|Designer Week 3 Skills Checklist]]
-- Week 3 Quick References
-  - [[Basic animation]]
-  - [[Working with gesture recognizers]]
-  - [[Timers]]
-
-### Week 4 - UIKit Dynamics
-
-We will be covering UIKit Dynamics and its associated behaviors like gravity, attachment, push, and snap. We will be covering topics and use cases such as the following:
-
-- Basic dynamics
-  - Applying behaviors like gravity to views
-  - Handling callback for collision detection
-  - Using rigid and flexible attachments
-  - Applying continuous or instantaneous forces
-  - Composing multiple behaviors
-- Dynamics combined with Gestures and Animations
-  - Dynamically adding or removing behaviors based on Gestures
-  - Updating animator state when manually modifying view properties
-  - Using view animation in conjunction with dynamics
-
-#### Homework
-
-The homework this week is to make an interactive mock of a simplified Paper "Edit Sections" page. Full homework description is [[here|Week 4 Homework]].
-
-<img src="http://i.imgur.com/L0rQSqu.gif" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/qt4XhM8.gif" width="250"/>
-
-#### Other links
-
-- [[Week 4 Skills checklist|Designer Week 4 Skills Checklist]]
-- Week 4 Quick References
-  - [[Presenting Modal View Controllers]]
-  - [[Working with UIKit Dynamics]]
-
-### Week 5 - Events and States
+### Week 2 - Events and States
 
 We will be covering events and delegates and making stateful applications. We will be covering topics and use cases such as the following:
 
@@ -140,12 +55,97 @@ We will be covering events and delegates and making stateful applications. We wi
 
 #### Homework
 
-The homework this week is to TBD. Full homework description is [[here|Week 5 Homework]].
+The homework this week is to TBD. Full homework description is [[here|Week 2 Homework]].
+
+#### Other links
+
+- [[Week 2 Skills checklist|Designer Week 2 Skills Checklist]]
+- Week 2 Quick References
+
+### Week 3 - Custom feeds
+
+We will be covering creating custom UITableViews with dynamic row heights populated with modeled data. We will be covering topics and use cases such as the following:
+
+- Table Views
+  - Specifying the number of rows and sections
+  - Designing custom cells
+  - Using plain and grouped table views
+  - Setting headers and footers
+- Models
+  - Specifying model properties
+  - Instantiating fake data
+
+#### Homework
+
+The homework this week is to make a scrollable version of the Facebook notifications view. Full homework description is [[here|Week 3 Homework]].
+
+<img src="http://i.imgur.com/7IuFoEul.png" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/N8PfLlf.png" width="250"/>
+
+#### Other links
+
+- [[Week 3 Skills checklist|Designer Week 3 Skills Checklist]]
+- Week 3 Quick References
+  - [[Creating a Model]]
+  - [[Working with UITableView]]
+  - [[Setting up UITabBarController]]
+  - [[Downloading an image into UIImageView]]
+  - [[Generating NSAttributedString from HTML]]
+
+### Week 4 - Animation and Gestures
+
+We will be covering view animations and interactions via gestures such as tap, pan, swipe, pinch, and rotate. We will be covering topics and use cases such as the following:
+
+- Animation
+  - Animation of properties such as color, frame, and alpha
+  - Animation options such as repeat and reverse
+  - Damping ratio and spring velocity
+  - Working with affine transforms
+- Gestures
+  - Attaching gestures to views
+  - Accessing location, velocity, rotation, and scale
+  - Processing gesture state
+
+#### Homework
+
+The homework this week is to make an interactive mock of the Paper navigation. Full homework description is [[here|Week 4 Homework]].
+
+<img src="http://i.imgur.com/1BNYyRK.gif" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/LUlV6x1.gif" width="250"/>
+
+#### Other links
+
+- [[Week 4 Skills checklist|Designer Week 4 Skills Checklist]]
+- Week 4 Quick References
+  - [[Basic animation]]
+  - [[Working with gesture recognizers]]
+  - [[Timers]]
+
+### Week 5 - UIKit Dynamics
+
+We will be covering UIKit Dynamics and its associated behaviors like gravity, attachment, push, and snap. We will be covering topics and use cases such as the following:
+
+- Basic dynamics
+  - Applying behaviors like gravity to views
+  - Handling callback for collision detection
+  - Using rigid and flexible attachments
+  - Applying continuous or instantaneous forces
+  - Composing multiple behaviors
+- Dynamics combined with Gestures and Animations
+  - Dynamically adding or removing behaviors based on Gestures
+  - Updating animator state when manually modifying view properties
+  - Using view animation in conjunction with dynamics
+
+#### Homework
+
+The homework this week is to make an interactive mock of a simplified Paper "Edit Sections" page. Full homework description is [[here|Week 5 Homework]].
+
+<img src="http://i.imgur.com/L0rQSqu.gif" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/qt4XhM8.gif" width="250"/>
 
 #### Other links
 
 - [[Week 5 Skills checklist|Designer Week 5 Skills Checklist]]
 - Week 5 Quick References
+  - [[Presenting Modal View Controllers]]
+  - [[Working with UIKit Dynamics]]
 
 ### Week 6 - TBD
 
