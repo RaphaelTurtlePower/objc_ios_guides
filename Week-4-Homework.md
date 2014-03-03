@@ -11,14 +11,19 @@
   - Facebook card should wobble (optional)
   - When Headlines Card is next to the Facebook Card, it should also wobble (optional)
   - Dragging the headline should cause the headline card to swing around the drag point with gravity (optional)
-- Group project
-  - Create high fidelity versions of your mocks.
+- Group project (optional)
+  - Implement view controllers placeholders for each screen. The purpose is to set up the basic navigation and structure of the application. It's also easier to collaborate if you have all the view controllers set up.
+  - Implement any table views in your application. See [[Working with UITableView]].
+
+### Assets
+
+You're welcome to use your own assets or you can use [these](https://www.dropbox.com/s/c1rc31dopd8ydqh/paper%20screenshots.zip).
 
 ### Submission instructions
 
 - Submit all the items above by next Monday at 5pm.
 - To submit your weekly coding assignment, email me your Github repository URL or email me a zip file of your project.
-- Email me screenshots of your high fidelity mocks.
+- To submit your group project, email me your Github repository URL or email me a zip file of your project with the view controller placeholders and implemented table views.
 
 ### Quick References
 
