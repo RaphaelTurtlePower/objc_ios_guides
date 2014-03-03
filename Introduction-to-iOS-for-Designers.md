@@ -94,8 +94,66 @@ The homework this week is to make an interactive mock of the Paper navigation. F
   - [[Working with gesture recognizers]]
   - [[Timers]]
 
-### Week 4 - Events
+### Week 4 - UIKit Dynamics
 
-### Week 5 - Custom views
+We will be covering UIKit Dynamics and its associated behaviors like gravity, attachment, push, and snap. We will be covering topics and use cases such as the following:
+
+- Basic dynamics
+  - Applying behaviors like gravity to views
+  - Handling callback for collision detection
+  - Using rigid and flexible attachments
+  - Applying continuous or instantaneous forces
+  - Composing multiple behaviors
+- Dynamics combined with Gestures and Animations
+  - Dynamically adding or removing behaviors based on Gestures
+  - Updating animator state when manually modifying view properties
+  - Using view animation in conjunction with dynamics
+
+#### Homework
+
+The homework this week is to make an interactive mock of a simplified Paper "Edit Sections" page. Full homework description is [[here|Week 4 Homework]].
+
+<img src="http://i.imgur.com/L0rQSqu.gif" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/qt4XhM8.gif" width="250"/>
+
+#### Other links
+
+- [[Week 4 Skills checklist|Designer Week 4 Skills Checklist]]
+- Week 4 Quick References
+  - [[Presenting Modal View Controllers]]
+  - [[Working with UIKit Dynamics]]
+
+### Week 5 - Events and States
+
+We will be covering events and delegates and making stateful applications. We will be covering topics and use cases such as the following:
+
+- Events and Delegates
+  - Events via targets and selectors
+  - Delegation for simple controls like UIAlertView and UIActionSheet
+  - Form validation via UITextField delegate
+  - Handling zoomable scroll view events
+- Application states
+  - Mocking an transient loading state
+  - Transitioning between empty and populated states
+  - Showing popover views
+
+#### Homework
+
+The homework this week is to TBD. Full homework description is [[here|Week 5 Homework]].
+
+#### Other links
+
+- [[Week 5 Skills checklist|Designer Week 5 Skills Checklist]]
+- Week 5 Quick References
 
 ### Week 6 - TBD
+
+We will be covering TBD. We will be covering topics and use cases such as the following:
+
+#### Homework
+
+The homework this week is TBD. Full homework description is [[here|Week 6 Homework]].
+
+#### Other links
+
+- [[Week 6 Skills checklist|Designer Week 6 Skills Checklist]]
+- Week 6 Quick References
