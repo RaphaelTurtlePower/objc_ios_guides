@@ -1,23 +1,26 @@
-<img src="http://i.imgur.com/1BNYyRK.gif" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/LUlV6x1.gif" width="250"/>
+<img src="http://i.imgur.com/7IuFoEul.png" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/N8PfLlf.png" width="250"/>
 
-- The homework this week is to make an interactive mock of the Paper navigation. Read the required and optional items below.
-  - Dragging the headline should reveal the menu
-  - If you're dragging down, releasing the headline should animate the headline to the down position
-  - If you're dragging up, releasing the headline should animate the headline to the up position
-  - If you're dragging the headline up past the top, the friction should increase
-  - Optional: Fade in different headlines every few seconds
-  - Optional: Dragging on the scrollable feed of headlines should change the scale of the feed
+- Create a scrollable view of Facebook notifications, such as the one above. Read the required and optional items below.
+  - Create a custom cell for the notification 
+  - Create a Notification model class with properties for profilePicUrl, text, iconUrl, timestamp
+  - Set the left navigation bar icon to the search icon
+  - Set the right navigation bar icon to the messages icon
+  - Images can be loaded locally or from a URL. The quick references below demonstrate an easy way to load them from a URL
+  - Optional: Implement a functioning tab bar that can be switched between news feed and notifications
+  - Optional: Implement a scrollable version of news feed that contains your post from the Week 1 assignment
 - Group project
-  - Create high fidelity versions of your mocks.
+  - Create paper or digital wireframes. The purpose of the wireframes is to capture the user tasks, not visuals. Buttons and gestures should be documented. Click [here](http://i.imgur.com/kfWh6Lv.jpg) for an example of some well-documented, low-fidelity wireframes.
 
 ### Submission instructions
 
 - Submit all the items above by next Monday at 5pm.
 - To submit your weekly coding assignment, email me your Github repository URL or email me a zip file of your project.
-- Email me screenshots of your high fidelity mocks.
+- Email me screenshots of your paper wireframes or digital wireframes.
 
 ### Quick References
 
-- [[Basic animation]]
-- [[Working with gesture recognizers]]
-- [[Timers]]
+- [[Creating a Model]]
+- [[Working with UITableView]]
+- [[Setting up UITabBarController]]
+- [[Downloading an image into UIImageView]]
+- [[Generating NSAttributedString from HTML]]
