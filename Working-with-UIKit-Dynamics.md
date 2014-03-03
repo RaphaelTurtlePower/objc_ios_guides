@@ -1,6 +1,8 @@
 ### Overview
 
-<img src="http://i.imgur.com/hmTooMm.gif" width="250" />
+UIKit Dynamics was introduced in iOS 7 to introduce a new level of realism to the UI. It's the same physics engine that powers SpriteKit except that it's set up to work with UIViews.
+
+<img src="http://i.imgur.com/hmTooMm.gif" width="250" height="443" />
 
 ### Step 1: Create the UIDynamicAnimator
 
