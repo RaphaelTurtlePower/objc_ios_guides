@@ -11,9 +11,9 @@
   - Facebook card should wobble (optional)
   - When Headlines Card is next to the Facebook Card, it should also wobble (optional)
   - Dragging the headline should cause the headline card to swing around the drag point with gravity (optional)
-- Group project (optional)
+- Group project
   - Implement view controllers placeholders for each screen. The purpose is to set up the basic navigation and structure of the application. It's also easier to collaborate if you have all the view controllers set up.
-  - Implement any table views in your application. See [[Working with UITableView]].
+  - Implement any table views in your application. See [[Working with UITableView]]. If you run out of time, you can use screenshots of the table view with tap gesture recognizers to capture taps on the cell.
 
 ### Assets
 
