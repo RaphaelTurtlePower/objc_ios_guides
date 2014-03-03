@@ -1,19 +1,22 @@
-#### Animations
+#### Table views
 
-- Animate view properties such as frame, background color, and alpha
-- Configure animation durations and delays
-- Configure animation curves
-- Repeat animations with and without reverse
-- Tune damping ratio and spring velocity
-- Create scale and rotation transforms
-- Combine scale and rotation transforms
-- Chain multiple animations
-- Set up concurrent animations
+- Basic setup of delegate and datasource
+- Configure the number of rows and sections
+- Define a custom cell
+- Configure a custom cell
+- Handle row selection
 
-#### Gesture Recognizers
+#### Models
 
-- Use a basic tap gesture recognizer
-- Retrieve location and velocity from the gesture recognizer
-- Use pan, pinch, rotate, and edge gesture recognizers
-- Handle the various states of a gesture recognizer
+- Define model attributes
+- Setup fixtures (fake data) for testing
 
+#### Images
+
+- Specify stretchable regions for a UIImageView in Interface Builder
+- Specify stretchable regions for image assets
+
+#### Labels
+
+- Determine the size of a plain text label
+- Determine the size of an attributed text label
