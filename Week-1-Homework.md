@@ -12,4 +12,3 @@
   - Optional: Implement the same page programatically without using Interface Builder
 - Group project
   - Meet with your group and decide on what app to build
-- Find 1-3 lowpri production issues that you’d like to learn how to fix
