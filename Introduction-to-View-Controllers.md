@@ -20,6 +20,10 @@ In XCode, the folder structure within your project directory doesn't matter. Ins
 
 <img src="http://i.imgur.com/gZn1EXz.gif" height="302" width="292" />
 
+## View Controller Lifecycle Methods
+
+...
+
 ## References
 
 - [View Controller Programming Guide](https://developer.apple.com/library/ios/featuredarticles/ViewControllerPGforiPhoneOS/Introduction/Introduction.html)
