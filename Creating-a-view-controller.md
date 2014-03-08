@@ -10,4 +10,4 @@ If you are **not** using Storyboard, make sure that "With XIB for user interface
 
 In XCode, the folder structure within your project directory doesn't matter. Instead, you organize your files using "Groups" within XCode.
 
-<img src="http://i.imgur.com/BYcUHWo.gif" height="302" width="292" />
+<img src="http://i.imgur.com/gZn1EXz.gif" height="302" width="292" />
