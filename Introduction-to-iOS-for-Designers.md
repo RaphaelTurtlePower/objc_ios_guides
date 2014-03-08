@@ -36,6 +36,14 @@ The homework this week is to make a non-scrollable version of a detailed view of
 
 - [[Week 1 Skills checklist|Designer Week 1 Skills Checklist]]
 - [[Week 1 Quick References|Week 1 Quick References]]
+  - [[Creating an XCode project]]
+  - [[Creating a view controller]]
+  - [[Setting the root view controller]]
+  - [[Creating a navigation controller]]
+  - [[Creating a tab bar controller]]
+  - [[Styling a navigation bar]]
+  - [[Adding image assets]]
+  - [[Basic view properties]]
 
 ### Week 2 - Events and States
 
