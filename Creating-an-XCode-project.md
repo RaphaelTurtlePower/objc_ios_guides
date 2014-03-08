@@ -20,4 +20,4 @@ Click on File->New->Project and create a new empty project.
 
 <img src="http://i.imgur.com/auIzSuH.gif" width="375" height="207" />
 
-
+To run the app, just select the simulator you want to run on and click the play button in the upper left corner. If you have an iPhone or iPad plugged in, you can run on the device, although this requires an Apple developer account which has a yearly subscription fee.
