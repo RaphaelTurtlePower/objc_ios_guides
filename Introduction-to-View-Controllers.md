@@ -1,5 +1,9 @@
 View controllers are the backbone of an iOS application. For any given screen of an iPhone, there is generally one view controller. The view controller is responsible for creating the view that is displayed on the screen, as well as handling events and firing network requests associated with that screen.
 
+For example, in the 3 Instagram tabs shown below, each is implemented using a separate view controller. Each view controller in an app is designed and implemented separately from other view controllers. The view controllers below might be called `HomeViewController`, `TrendingViewController`, and `NewsViewController`.
+
+<img src="http://i.imgur.com/q0YGm5Ml.png" width="250" />&nbsp;&nbsp;<img src="http://i.imgur.com/KPK1k0Ql.png" width="250" />&nbsp;&nbsp;<img src="http://i.imgur.com/gJXVpw9l.png" width="250" />
+
 ## Creating Custom View Controllers
 
 ### Step 1: Creating a view controller
