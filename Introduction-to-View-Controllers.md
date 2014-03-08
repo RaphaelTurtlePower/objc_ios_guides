@@ -22,7 +22,52 @@ In XCode, the folder structure within your project directory doesn't matter. Ins
 
 ## View Controller Lifecycle Methods
 
-...
+When a view controller is presented, the framework calls a series of lifecycle methods defined in the view controller.
+
+```
+@interface MyViewController : UIViewController
+
+@end
+```
+
+```
+@implementation MyViewController
+
+- (void)loadView {
+   // If you want to create your view programatically, implement this method.
+}
+
+- (void)viewDidLoad {
+   [super viewDidLoad];
+
+   // After the view is created successfully from the nib, this method is called.
+   // This is a good place to configure your view, add gesture recognizers, add dynamics, etc.
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+   [super viewWillAppear:animated];
+
+   // This method is called right before the view animates in.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+   [super viewDidAppear:animated];
+
+   // This method is called right after the transition animation finishes
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+   [super viewWillDisappear:animated];
+
+   // This method is called right before the view transitions off screen
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+   [super viewDidDisappear:animated];
+
+   // This method is called right after the exit transition animation finishes
+}
+```
 
 ## References
 
