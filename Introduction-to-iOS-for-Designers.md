@@ -39,9 +39,8 @@ The homework this week is to make a non-scrollable version of a detailed view of
   - [[Creating an XCode project]]
   - [[Introduction to View Controllers]]
   - [[Setting the root view controller]]
-  - [[Creating a navigation controller]]
-  - [[Creating a tab bar controller]]
-  - [[Styling a navigation bar]]
+  - [[Using Navigation Controllers]]
+  - [[Using Tab Bar Controllers]]
   - [[Adding image assets]]
   - [[Basic view properties]]
 
