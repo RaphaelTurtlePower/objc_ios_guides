@@ -8,6 +8,6 @@ If you are **not** using Storyboard, make sure that "With XIB for user interface
 
 ### Step 2: Organizing within groups
 
-In XCode, the folder structure within your project directory doesn't matter. Instead, you organize your files using "Groups" within XCode.
+In XCode, the folder structure within your project directory doesn't matter. Instead, you organize your files using "Groups" within XCode. Use the Command key (⌘) to select multiple files.
 
 <img src="http://i.imgur.com/gZn1EXz.gif" height="302" width="292" />
