@@ -66,7 +66,7 @@ secondNavigationController.tabBarItem.title = @"Second";
 secondNavigationController.tabBarItem.image = [UIImage imageNamed:@"Martini"];
 ```
 
-### Recap
+### Summary
 
 Combine the 3 steps above to get a code snippet like the following:
 
