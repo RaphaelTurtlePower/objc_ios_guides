@@ -35,7 +35,7 @@ The homework this week is to make a non-scrollable version of a detailed view of
 #### Other links
 
 - [[Week 1 Skills checklist|Designer Week 1 Skills Checklist]]
-- Week 1 Quick References|Week 1 Quick References
+- Week 1 Quick References
   - XCode
     - [[Creating an XCode project]]
     - [[Adding Image Assets]]
