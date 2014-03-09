@@ -94,7 +94,7 @@ The homework this week is to make a scrollable version of the Facebook notificat
 - Week 3 Quick References
   - [[Creating a Model]]
   - [[Working with UITableView]]
-  - [[Setting up UITabBarController]]
+  - [[Using Tab Bar Controllers]]
   - [[Downloading an image into UIImageView]]
   - [[Generating NSAttributedString from HTML]]
 
