@@ -1,1 +1,1 @@
-Adding Image Assets
+<img src="http://i.imgur.com/gPEbazB.gif" />
