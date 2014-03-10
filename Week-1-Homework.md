@@ -11,13 +11,13 @@
   - Optional: Setup CocoaPods for managing 3rd party libraries and use TTTAttributedLabel to style the link and make it clickable
   - Optional: Implement the same page programatically without using Interface Builder
 - Group project
-  - Meet with your group and decide on what app to build
+  - Meet with your group and decide on two possible app ideas.
 
 ### Submission instructions
 
 - Submit all the items above by next Monday at 5pm.
 - To submit your weekly coding assignment, email me your Github repository URL or email me a zip file of your project.
-- Email me screenshots of your high fidelity mocks.
+- Email me the two group app ideas.
 
 ### Quick References
 
