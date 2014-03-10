@@ -73,6 +73,20 @@ In the `viewDidLoad` method, configure the left or right navigation bar button. 
 
 ### Configure the back button
 
+To configure the back button, you actually have to set the back button property on the previous view controller. For example, if the `FirstViewController` pushes the `SecondViewController`, there will be a back button visible in the navigation bar for the `SecondViewController`. To control the appearance of that back button, set the back button property on the `FirstViewController`.
+
+You don't need to set the target and selector. Tapping on the back button will always pop the current view controller.
+
+```
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil];
+    self.navigationItem.backBarButtonItem = backButton;
+}
+```
+
 ### Configure the navigation bar title
 
 In the `viewDidLoad` method, configure the title of the navigation bar with a string or a custom view.
