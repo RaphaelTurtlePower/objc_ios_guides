@@ -54,6 +54,39 @@ Below are some other common tasks that you might do with a navigation controller
 
 ### Configure left or right navigation bar buttons
 
+In the `viewDidLoad` method, configure the left or right navigation bar button. There are helper methods to create bar button items using titles, images, or custom views. You can also configure the navigation item with an array of left or right buttons if there is more than one button per side.
+
+```
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+
+    // Configure the left button
+    UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"leftButton"] style:UIBarButtonItemStylePlain target:self action:@selector(onLeftButton:)];
+    self.navigationItem.leftBarButtonItem = leftButton;
+    
+    // Configure the right button
+    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"rightButton"] style:UIBarButtonItemStylePlain target:self action:@selector(onRightButton:)];
+    self.navigationItem.leftBarButtonItem = rightButton;
+}
+```
+
+### Configure the back button
+
 ### Configure the navigation bar title
 
+In the `viewDidLoad` method, configure the title of the navigation bar with a string or a custom view.
+
+```
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+
+    // Configure the title
+    self.navigationItem.title = @"Title";
+    
+    // Alternatively, configure the title with a custom view
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"title"]];
+}
+```
 
