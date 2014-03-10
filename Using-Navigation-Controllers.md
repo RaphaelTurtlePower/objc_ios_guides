@@ -47,3 +47,13 @@ You get the back button automatically and tapping on the back button with remove
 ```
 [self.navigationController popViewControllerAnimated:YES];
 ```
+
+## Other Navigation tasks
+
+Below are some other common tasks that you might do with a navigation controller or its view controllers.
+
+### Configure left or right navigation bar buttons
+
+### Configure the navigation bar title
+
+
