@@ -1,4 +1,12 @@
-- Facebook signup page
+### Login screen
+
+<img src="http://i.imgur.com/HscRliMl.png" width="250" />&nbsp;&nbsp;<img src="http://i.imgur.com/ZVBiKXql.png" width="250" />&nbsp;&nbsp;<img src="http://i.imgur.com/k7USHKgl.png" width="250" />
+
+### Feed screen
+
+### More screen (optional)
+
+- Facebook login page
    - Tapping in the UITextField repositions the elements, as shown in the screenshots.
    - Tapping anywhere dismisses the keyboard
    - If email and password field are both blank, button should be disabled.
