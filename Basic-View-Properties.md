@@ -14,7 +14,7 @@ There are a few additional properties for the view that are set on the underlyin
 - border
 - shadow
 
-<img src="http://i.imgur.com/7WRrBM0.png" width="320" height="480" />
+<img src="http://i.imgur.com/tuAyc0d.png" width="322" height="482" />
 
 ### Setting view properties
 
