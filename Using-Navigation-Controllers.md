@@ -104,3 +104,20 @@ In the `viewDidLoad` method, configure the title of the navigation bar with a st
 }
 ```
 
+### Configure Navigation bar appearance
+
+To customize the appearance of the navigation bar, use the diagram below to see which properties effects various aspects of the navigation bar.
+
+<img src="http://i.imgur.com/hTItjUB.jpg" width="640" height="147" />
+
+### Example: Changing the color of the navigation bar
+
+As of iOS 7, use the navBarTint property to configure the color of the navigation bar. Note that by default, the navigation bar is translucent.
+
+```
+UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+nvc.navigationBar.barTintColor = [UIColor blueColor];
+nvc.navigationBar.translucent = NO;
+```
+
+
