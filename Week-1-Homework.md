@@ -12,3 +12,26 @@
   - Optional: Implement the same page programatically without using Interface Builder
 - Group project
   - Meet with your group and decide on what app to build
+
+### Submission instructions
+
+- Submit all the items above by next Monday at 5pm.
+- To submit your weekly coding assignment, email me your Github repository URL or email me a zip file of your project.
+- Email me screenshots of your high fidelity mocks.
+
+### Quick References
+
+- XCode
+   - [[Creating an XCode project]]
+   - [[Connecting IBOutlets]]
+   - [[Adding Image Assets]]
+- View Controllers
+   - [[Introduction to View Controllers]]
+   - [[Setting the Root View Controller]]
+- Navigation
+   - [[Using Navigation Controllers]]
+   - [[Using Tab Bar Controllers]]
+- Views
+   - [[Basic view properties]]
+- Keyboard
+   - [[Getting the keyboard height]]
