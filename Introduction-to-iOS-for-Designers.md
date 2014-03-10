@@ -38,6 +38,7 @@ The homework this week is to make a non-scrollable version of a detailed view of
 - Week 1 Quick References
   - XCode
     - [[Creating an XCode project]]
+    - [[Connecting IBOutlets]]
     - [[Adding Image Assets]]
   - View Controllers
     - [[Introduction to View Controllers]]
@@ -47,6 +48,8 @@ The homework this week is to make a non-scrollable version of a detailed view of
     - [[Using Tab Bar Controllers]]
   - Views
     - [[Basic view properties]]
+  - Keyboard
+    - [[Getting the keyboard height]]
 
 ### Week 2 - Events and States
 
