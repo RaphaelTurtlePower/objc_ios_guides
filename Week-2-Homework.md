@@ -8,6 +8,8 @@
 
 ### More screen (optional)
 
+<img src="http://i.imgur.com/VDaH8mfl.png" width="250" />&nbsp;&nbsp;<img src="http://i.imgur.com/rEhaQzLl.png" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/eEzyaGEl.png" width="250"/>
+
 - Facebook login page
    - Tapping in the UITextField repositions the elements, as shown in the screenshots.
    - Tapping anywhere dismisses the keyboard
