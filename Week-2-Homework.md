@@ -30,3 +30,12 @@
    - Add a UIRefreshControl for a pull to refresh (optional)
    - After a pull to refresh, delay for 2 seconds before ending (optional)
       - Every other time, display an error message (optional)
+
+### Assets
+
+   - Use your own assets or use the assets [here](https://www.dropbox.com/s/97w8khawi2ihllt/week2_assets.zip).
+
+### Submission instructions
+
+- Submit all the items above by next Monday at 5pm.
+- To submit your weekly coding assignment, email me your Github repository URL or email me a zip file of your project.
