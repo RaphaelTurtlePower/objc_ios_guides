@@ -4,6 +4,8 @@
 
 ### Feed screen
 
+<img src="http://i.imgur.com/dB4WrREl.png" width="250 />&nbsp;&nbsp;<img src="http://i.imgur.com/tQA52bkl.png" width="250" />
+
 ### More screen (optional)
 
 - Facebook login page
