@@ -69,7 +69,9 @@ We will be covering events and delegates and making stateful applications. We wi
 
 #### Homework
 
-The homework this week is to TBD. Full homework description is [[here|Week 2 Homework]].
+The homework this week is to implement the Facebook login flow with loading and error states. Full homework description is [[here|Week 2 Homework]].
+
+<img src="http://i.imgur.com/HscRliMl.png" width="250" />&nbsp;&nbsp;<img src="http://i.imgur.com/tQA52bkl.png" width="250"/>
 
 #### Other links
 
