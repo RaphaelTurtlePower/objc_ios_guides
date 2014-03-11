@@ -58,13 +58,12 @@ We will be covering events and delegates and making stateful applications. We wi
 - Events and Delegates
   - Events via targets and selectors
   - Delegation for simple controls like UIAlertView and UIActionSheet
-  - Form validation via UITextField delegate
-  - Handling zoomable scroll view events
+  - Handling UITextField delegate events
+  - Handling scroll view events
   - Observing properties using KVO
 - Application states
   - Mocking an transient loading state
   - Transitioning between empty and populated states
-  - Showing popover views
   - Performing selectors after delays
 
 #### Homework
