@@ -5,6 +5,12 @@
 - Show a UIActionSheet
 - Determine which button was pressed in a UIActionSheet
 
+#### UIActivityIndicatorView
+
+- Create a UIActivityIndicatorView
+- Start animating
+- Stop animating
+
 #### UIScrollView
 
 - Creating a UIScrollView
