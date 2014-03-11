@@ -1,6 +1,6 @@
 ### Login screen
 
-<img src="http://i.imgur.com/HscRliMl.png" width="250" />&nbsp;&nbsp;<img src="http://i.imgur.com/ZVBiKXql.png" width="250" />&nbsp;&nbsp;<img src="http://i.imgur.com/k7USHKgl.png" width="250" />
+<img src="http://i.imgur.com/HscRliMl.png" width="250" />&nbsp;&nbsp;<img src="http://i.imgur.com/ZVBiKXql.png" width="250" />&nbsp;&nbsp;<img src="http://i.imgur.com/k7USHKgl.png" width="250" />&nbsp;&nbsp;<img src="http://i.imgur.com/C3InaUHl.png" width="250" />
 
 ### Feed screen
 
