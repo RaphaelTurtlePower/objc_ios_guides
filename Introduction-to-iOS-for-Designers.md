@@ -37,19 +37,19 @@ The homework this week is to make a non-scrollable version of a detailed view of
 - [[Week 1 Skills checklist|Designer Week 1 Skills Checklist]]
 - Week 1 Quick References
   - XCode
-    - [[Creating an XCode project]]
-    - [[Connecting IBOutlets]]
-    - [[Adding Image Assets]]
+     - [[Creating an XCode project]]
+     - [[Connecting IBOutlets]]
+     - [[Adding Image Assets]]
   - View Controllers
-    - [[Introduction to View Controllers]]
-    - [[Setting the Root View Controller]]
+     - [[Introduction to View Controllers]]
+     - [[Setting the Root View Controller]]
   - Navigation
-    - [[Using Navigation Controllers]]
-    - [[Using Tab Bar Controllers]]
+     - [[Using Navigation Controllers]]
+     - [[Using Tab Bar Controllers]]
   - Views
-    - [[Basic view properties]]
+     - [[Basic view properties]]
   - Keyboard
-    - [[Getting the keyboard height]]
+     - [[Getting the keyboard height]]
 
 ### Week 2 - Events and States
 
