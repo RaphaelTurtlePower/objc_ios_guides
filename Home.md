@@ -28,6 +28,7 @@ Read about our [mission to change the way engineers learn new technologies](http
 ### Views
 
 - [[Basic view properties]]
+- [[Using UITableView]]
 
 ### Navigation
 
@@ -37,6 +38,10 @@ Read about our [mission to change the way engineers learn new technologies](http
 ### Keyboard
 
 - [[Getting the keyboard height]]
+
+### Dependency Management
+
+- [[Installing CocoaPods]]
 
 ## References
 
