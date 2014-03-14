@@ -28,7 +28,7 @@ The modal view controller is usually presented in a button handler method. Choos
 #### Example #1 - Presenting a basic view controller
 
 ```
-- (void)onButton:(id)sender {
+- (IBAction)onButton:(id)sender {
    UIViewController *vc = [[ModalViewController alloc] init];
    vc.modalTransitionStyle = UIModalTransitionStyleCoverVertical; // Rises from below
 
