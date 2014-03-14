@@ -20,20 +20,25 @@ Read about our [mission to change the way engineers learn new technologies](http
 - [[Connecting IBOutlets]]
 - [[Adding Image Assets]]
 
-### View Controllers
+### Models
 
-- [[Introduction to View Controllers]]
-- [[Setting the Root View Controller]]
-   
+- [[Creating a Model]]
+
 ### Views
 
 - [[Basic view properties]]
 - [[Using UITableView]]
 
+### View Controllers
+
+- [[Introduction to View Controllers]]
+- [[Setting the Root View Controller]]
+
 ### Navigation
 
 - [[Using Navigation Controllers]]
 - [[Using Tab Bar Controllers]]
+- [[Presenting Modal View Controllers]]
 
 ### Keyboard
 
