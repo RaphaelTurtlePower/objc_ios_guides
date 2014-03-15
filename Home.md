@@ -23,6 +23,7 @@ Read about our [mission to change the way engineers learn new technologies](http
 ### Foundation
 
 - [[Generating NSAttributedString from HTML]]
+- [[Timers]]
 
 ### Models
 
@@ -33,6 +34,7 @@ Read about our [mission to change the way engineers learn new technologies](http
 - [[Basic view properties]]
 - [[Downloading an image into UIImageView]]
 - [[Using UITableView]]
+- [[Basic animation]]
 
 ### View Controllers
 
@@ -44,6 +46,14 @@ Read about our [mission to change the way engineers learn new technologies](http
 - [[Using Navigation Controllers]]
 - [[Using Tab Bar Controllers]]
 - [[Presenting Modal View Controllers]]
+
+### Events
+
+- [[Working with gesture recognizers]]
+
+### UIKit Dynamics
+
+- [[Working with UIKit Dynamics]]
 
 ### Keyboard
 
