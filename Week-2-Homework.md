@@ -33,7 +33,16 @@
 
 ### Assets
 
-   - Use your own assets or use the assets [here](https://www.dropbox.com/s/97w8khawi2ihllt/week2_assets.zip).
+- Use your own assets or use the assets [here](https://www.dropbox.com/s/97w8khawi2ihllt/week2_assets.zip).
+
+### Quick References
+
+- [[Using UIActivityIndicatorView]]
+- [[Using UIAlertView and UIActionSheet]]
+- [[Presenting Modal View Controllers]]
+- [[Calling a method after a delay]]
+- [[Using UIScrollView]]
+- [[Working with the keyboard]]
 
 ### Submission instructions
 
