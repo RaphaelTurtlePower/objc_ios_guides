@@ -27,6 +27,7 @@ Read about our [mission to change the way engineers learn new technologies](http
 ### Views
 
 - [[Basic view properties]]
+- [[Downloading an image into UIImageView]]
 - [[Using UITableView]]
 
 ### View Controllers
