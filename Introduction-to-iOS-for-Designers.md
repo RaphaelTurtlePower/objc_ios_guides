@@ -76,6 +76,12 @@ The homework this week is to implement the Facebook login flow with loading and 
 
 - [[Week 2 Skills checklist|Designer Week 2 Skills Checklist]]
 - Week 2 Quick References
+  - [[Using UIActivityIndicatorView]]
+  - [[Using UIAlertView and UIActionSheet]]
+  - [[Presenting Modal View Controllers]]
+  - [[Calling a method after a delay]]
+  - [[Using UIScrollView]]
+  - [[Working with the keyboard]]
 
 ### Week 3 - Custom feeds
 
