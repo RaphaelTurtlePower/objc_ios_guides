@@ -168,7 +168,23 @@ The homework this week is to make an interactive mock of a simplified Paper "Edi
   - [[Presenting Modal View Controllers]]
   - [[Working with UIKit Dynamics]]
 
-### Week 6 - UICollectionView with UIKit Dynamics
+### Week 6 - Parse
+
+We will be covering designing an API and implementation using Parse. We will be covering topics and use cases such as the following:
+
+- Authentication
+  - Signing in / Signing up
+  - Accessing current user
+- Schema
+  - Designing basic models
+  - Relationships
+    - 1:1, 1:many, many:many
+  - Queries
+    - Using conditions
+    - Eager loading related objects
+  - Asynchronous saving / deleting
+
+### Week 7 - UICollectionView with UIKit Dynamics
 
 We will be covering working with UICollectionView and integrating it with UIKit Dynamics. We will be covering topics and use cases such as the following:
 
@@ -181,9 +197,9 @@ We will be covering working with UICollectionView and integrating it with UIKit 
 
 #### Homework
 
-The homework this week is TBD. Full homework description is [[here|Week 6 Homework]].
+The homework this week is TBD. Full homework description is [[here|Week 7 Homework]].
 
 #### Other links
 
-- [[Week 6 Skills checklist|Designer Week 6 Skills Checklist]]
-- Week 6 Quick References
+- [[Week 7 Skills checklist|Designer Week 7 Skills Checklist]]
+- Week 7 Quick References
