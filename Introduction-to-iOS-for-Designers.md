@@ -168,7 +168,7 @@ The homework this week is to make an interactive mock of a simplified Paper "Edi
   - [[Presenting Modal View Controllers]]
   - [[Working with UIKit Dynamics]]
 
-### Week 6 - Parse
+### Week 6 - API design with Parse
 
 We will be covering designing an API and implementation using Parse. We will be covering topics and use cases such as the following:
 
