@@ -68,6 +68,26 @@ In practice, a UITableViewCell is rarely appropriate for your table views. Inste
 
 #### Step 1: Define the custom cell
 
+The video below demonstrates the process of creating a custom cell using XCode 5.1.
+
+<iframe src="//player.vimeo.com/video/89248377" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 #### Step 2: Register the cell
 
+```
+- (void)viewDidLoad {
+   [super viewDidLoad];
+   UINib *movieCellNib = [UINib nibWithNibName:@"YourCustomCell" bundle:nil];
+   [self.tableView registerNib:movieCellNib forCellReuseIdentifier:@"YourCustomCell"];
+}
+```
+
 #### Step 3: Dequeue the cell
+
+```
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+   YourCustomCell *cell = [tableView dequeueReusableCellWithIdentifier:@"YourCustomCell" forIndexPath:indexPath];
+
+   return cell;
+}
+```
