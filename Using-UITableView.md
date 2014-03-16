@@ -61,3 +61,13 @@ There are many table view methods, but the only required methods are to set the 
     return cell;
 }
 ```
+
+### Table View with Custom Cells
+
+In practice, a UITableViewCell is rarely appropriate for your table views. Instead, you'll often need to create a custom cell with different subviews and custom highlight and selection effects. To create and use a custom cell, follow the steps below.
+
+#### Step 1: Define the custom cell
+
+#### Step 2: Register the cell
+
+#### Step 3: Dequeue the cell
