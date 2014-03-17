@@ -67,7 +67,7 @@ In the `viewDidLoad` method, configure the left or right navigation bar button. 
     
     // Configure the right button
     UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"rightButton"] style:UIBarButtonItemStylePlain target:self action:@selector(onRightButton:)];
-    self.navigationItem.leftBarButtonItem = rightButton;
+    self.navigationItem.rightBarButtonItem = rightButton;
 }
 ```
 
