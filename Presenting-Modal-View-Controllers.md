@@ -1,4 +1,4 @@
-### Overview
+## Overview
 
 Any view controller may present another view controller with some animation, commonly sliding up from below or fading in. Of course, as in Inception, that view controller can present another view controller which can present another view controller and so on. However, the common use case is to present a single view controller that will be dismissed shortly, as depicted below.
 
@@ -75,3 +75,7 @@ To dismiss the view controller, simply call the dismiss method. Even though the 
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 ```
+
+## References
+
+- [View Controller Programming Guide - Presenting View Controllers](https://developer.apple.com/library/ios/featuredarticles/ViewControllerPGforiPhoneOS/ModalViewControllers/ModalViewControllers.html)
