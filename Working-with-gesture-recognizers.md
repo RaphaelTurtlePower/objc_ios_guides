@@ -1,4 +1,4 @@
-### Overview
+## Overview
 
 Gesture recognizers are a powerful and easy to use tool for handling user gestures like tap or pinch and performing actions like triggering animations or view changes. This is a quick guide for the steps in setting up gesture recognizers.
 
