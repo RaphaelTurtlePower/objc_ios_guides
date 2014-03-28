@@ -10,6 +10,10 @@
 - Group project
   - Create high fidelity versions of your mocks.
 
+### Assets
+
+- Feel free to use your own assets or the assets [here](https://www.dropbox.com/s/c1rc31dopd8ydqh/paper%20screenshots.zip).
+
 ### Submission instructions
 
 - Submit all the items above by next Monday at 5pm.
