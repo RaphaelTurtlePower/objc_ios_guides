@@ -40,7 +40,7 @@ It is common to create the gesture recognizers in the `viewDidLoad` method, as s
    UIPanGestureRecognizer *panGestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(onCustomPan:)];
 
    // Attach it to a view of your choice. If it's a UIImageView, remember to enable user interaction
-   [self.view addGestureRecognizer:tapGestureRecognizer];
+   [self.view addGestureRecognizer:panGestureRecognizer];
 }
 ```
 
