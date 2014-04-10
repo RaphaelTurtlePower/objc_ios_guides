@@ -21,6 +21,6 @@
 
 - [[Creating a Model]]
 - [[Working with UITableView]]
-- [[Setting up UITabBarController]]
+- [[Using Tab Bar Controllers]]
 - [[Downloading an image into UIImageView]]
 - [[Generating NSAttributedString from HTML]]
