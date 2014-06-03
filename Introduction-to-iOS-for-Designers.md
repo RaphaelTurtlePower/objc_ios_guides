@@ -83,6 +83,34 @@ The homework this week is to implement the Facebook login flow with loading and 
   - [[Using UIScrollView]]
   - [[Working with the keyboard]]
 
+### Week 4 - Animation and Gestures
+
+We will be covering view animations and interactions via gestures such as tap, pan, swipe, pinch, and rotate. We will be covering topics and use cases such as the following:
+
+- Animation
+  - Animation of properties such as color, frame, and alpha
+  - Animation options such as repeat and reverse
+  - Damping ratio and spring velocity
+  - Working with affine transforms
+- Gestures
+  - Attaching gestures to views
+  - Accessing location, velocity, rotation, and scale
+  - Processing gesture state
+
+#### Homework
+
+The homework this week is to make an interactive mock of the Paper navigation. Full homework description is [[here|Week 4 Homework]].
+
+<img src="http://i.imgur.com/1BNYyRK.gif" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/LUlV6x1.gif" width="250"/>
+
+#### Other links
+
+- [[Week 4 Skills checklist|Designer Week 4 Skills Checklist]]
+- Week 4 Quick References
+  - [[Basic animation]]
+  - [[Working with gesture recognizers]]
+  - [[Timers]]
+
 ### Week 3 - Custom feeds
 
 We will be covering creating custom UITableViews with dynamic row heights populated with modeled data. We will be covering topics and use cases such as the following:
@@ -112,34 +140,6 @@ The homework this week is to make a scrollable version of the Facebook notificat
   - [[Downloading an image into UIImageView]]
   - [[Generating NSAttributedString from HTML]]
 
-### Week 4 - Animation and Gestures
-
-We will be covering view animations and interactions via gestures such as tap, pan, swipe, pinch, and rotate. We will be covering topics and use cases such as the following:
-
-- Animation
-  - Animation of properties such as color, frame, and alpha
-  - Animation options such as repeat and reverse
-  - Damping ratio and spring velocity
-  - Working with affine transforms
-- Gestures
-  - Attaching gestures to views
-  - Accessing location, velocity, rotation, and scale
-  - Processing gesture state
-
-#### Homework
-
-The homework this week is to make an interactive mock of the Paper navigation. Full homework description is [[here|Week 4 Homework]].
-
-<img src="http://i.imgur.com/1BNYyRK.gif" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/LUlV6x1.gif" width="250"/>
-
-#### Other links
-
-- [[Week 4 Skills checklist|Designer Week 4 Skills Checklist]]
-- Week 4 Quick References
-  - [[Basic animation]]
-  - [[Working with gesture recognizers]]
-  - [[Timers]]
-
 ### Week 5 - UIKit Dynamics
 
 We will be covering UIKit Dynamics and its associated behaviors like gravity, attachment, push, and snap. We will be covering topics and use cases such as the following:
@@ -168,22 +168,6 @@ The homework this week is to make an interactive mock of a simplified Paper "Edi
   - [[Presenting Modal View Controllers]]
   - [[Working with UIKit Dynamics]]
 
-### Week 6 - API design with Parse
-
-We will be covering designing an API and implementation using Parse. We will be covering topics and use cases such as the following:
-
-- Authentication
-  - Signing in / Signing up
-  - Accessing current user
-- Schema
-  - Designing basic models
-  - Relationships
-    - 1:1, 1:many, many:many
-  - Queries
-    - Using conditions
-    - Eager loading related objects
-  - Asynchronous saving / deleting
-
 ### Week 7 - UICollectionView with UIKit Dynamics
 
 We will be covering working with UICollectionView and integrating it with UIKit Dynamics. We will be covering topics and use cases such as the following:
@@ -203,3 +187,19 @@ The homework this week is TBD. Full homework description is [[here|Week 7 Homewo
 
 - [[Week 7 Skills checklist|Designer Week 7 Skills Checklist]]
 - Week 7 Quick References
+
+### Week 8 - API design with Parse
+
+We will be covering designing an API and implementation using Parse. We will be covering topics and use cases such as the following:
+
+- Authentication
+  - Signing in / Signing up
+  - Accessing current user
+- Schema
+  - Designing basic models
+  - Relationships
+    - 1:1, 1:many, many:many
+  - Queries
+    - Using conditions
+    - Eager loading related objects
+  - Asynchronous saving / deleting
