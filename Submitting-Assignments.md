@@ -1,5 +1,9 @@
 ## Create a GitHub Repository
 
+For this course, you need a GitHub account which is free to signup. GitHub is an excellent version control system that makes sharing and collaborating on code as easy as possible. We will be submitting all assignments using GitHub and sharing all our code through GitHub. 
+
+If you do not have a Github account, [sign up here](https://github.com/signup/free) and then you begin [creating free repositories](https://github.com/new). Create a new repository for each project you want to push to GitHub.
+
 ## Creating the Project README
 
 In your project repository, add a file named README.md at the root. Required elements to include in the README for the project (see example):
