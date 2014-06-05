@@ -15,9 +15,8 @@
 
 ### Submission instructions
 
-- Submit all the items above by next Monday at 5pm.
-- To submit your weekly coding assignment, email me your Github repository URL or email me a zip file of your project.
-- Email me the two group app ideas.
+- Submit all the items above the day before the next class at 10 pm. For example, if the homework was assigned on Tuesday, it's due the following Monday at 10 pm.
+- To submit your weekly coding assignment, follow these [submission instructions][Submitting Assignments]
 
 ### Quick References
 
