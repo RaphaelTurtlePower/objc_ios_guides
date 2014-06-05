@@ -1,6 +1,6 @@
 ## Overview
 
-This document is a guide to  the 1-day iOS workshop format to be run on a weekend for a group of about 15-20 people from 10am-4pm. Organizers should be at the venue by 9am to help setup.
+This document is a guide to  the 1-day iOS workshop format to be run on a weekend for a group of about **15-20 people** from **10am-4pm**. Organizers should be at the venue by **9am** to help setup.
 
 ## Student Prerequisites
 
@@ -13,10 +13,10 @@ Prior to the workshop, the lead organizer is responsible for ensuring the studen
   
 ## Roles
 
-In order to run the workshop, we typically recommend 3-4 people helping out. There should be 1-2 instructors and 1-2 TAs helping out:
+In order to run the workshop, we typically recommend 3-4 people helping out. There should be **1-2 instructors** and **1-2 TAs helping out**:
 
-* Instructor should be leading the session by giving step-by-step instructions and explaining each step and concept as it comes up. Might be completing the app on the projector alongside students. If there are multiple instructors, they might switch off to co-teach between sections of the day.
-* TA should be acting as support for the attendees circling around them during each step to ensure they don’t get stuck or left too far behind. The TAs should be the “eyes and ears” of the instructors to help adjust the pacing.
+* **Instructor** should be leading the session by giving step-by-step instructions and explaining each step and concept as it comes up. Might be completing the app on the projector alongside students. If there are multiple instructors, they might switch off to co-teach between sections of the day.
+* **TA** should be acting as support for the attendees circling around them during each step to ensure they don’t get stuck or left too far behind. The TAs should be the “eyes and ears” of the instructors to help adjust the pacing.
 
 ## Tips
 
@@ -28,18 +28,17 @@ In order to run the workshop, we typically recommend 3-4 people helping out. The
 
 This is an approximate schedule. Remember to take the breaks because they are a good time to allow everyone to catch up.
 
-* 9:30-10:00 am:	Breakfast and Arrival
-* 10:00-10:50 am:	Introduction
-* 10:50-11:00 am:	Break
-* 11:00-12:00 pm:	Tip Calculator
-* 12:00-1:00 pm:	Lunch
-* 1:00-1:30 pm:	Objective-C Walkthrough
-* 1:30-2:50 pm:	Rotten Tomatoes
-* 2:50-3:00 pm:	Break
-* 3:00-3:50 pm:	Rotten Tomatoes Movie Detail View
-* 3:50-4:00 pm:	Wrap Up
-* Bonus:	Box Office and Top DVD Tabs
-
+* 9:30-10:00 am: **Breakfast and Arrival**
+* 10:00-10:50 am: **Introduction**
+* 10:50-11:00 am: **Break**
+* 11:00-12:00 pm: **Tip Calculator**
+* 12:00-1:00 pm: **Lunch**
+* 1:00-1:30 pm:	**Objective-C Walkthrough**
+* 1:30-2:50 pm:	**Rotten Tomatoes App**
+* 2:50-3:00 pm:	**Break**
+* 3:00-3:50 pm:	**Rotten Tomatoes Movie Detail View**
+* 3:50-4:00 pm:	**Wrap Up**
+* Bonus:	**Box Office and Top DVD Tabs**
 
 ### A. Introductions
 
@@ -48,7 +47,7 @@ This is an approximate schedule. Remember to take the breaks because they are a 
 * Instructor Introduction (5 minutes)
 * CodePath Introduction (5 minutes)
     * "Professional organization for startup engineers. This includes mentorship and training, fellowship, and career development"
-    * Student Introductions (20 minutes)
+* Student Introductions (20 minutes)
     * Each person:  Say your name, describe your programming background, and why you want to learn iOS development?
     * Poll the class: How many of you already know an object-oriented programming language? Java/Ruby/Python/C#? How many do front-end web development? Back-end web development?
 * Getting Started (5 minutes)
@@ -112,11 +111,11 @@ The purpose of this section is to provide a broad overview of Objective-C and us
     * Open the API url in Chrome to show the data. Tip: use a pretty json Chrome extension.
     * Modify the dataSource methods to print out the movie titles.
     * Discuss why you need to call reloadData.
-    * Create a MovieCell with an UIImageView, and UILabels for the title and synopsis.
-    * Register the MovieCell, dequeue it, and use it to print the title and synopsis.
-    * Implement posters
-      * Create a Podfile and add AFNetworking
-      * #import “UIImageView+AFNetworking.h”
+1. Create a MovieCell with an UIImageView, and UILabels for the title and synopsis.
+1. Register the MovieCell, dequeue it, and use it to print the title and synopsis.
+1. Implement posters
+    * Create a Podfile and add AFNetworking
+    * #import “UIImageView+AFNetworking.h”
 
 ### E. RottenTomatoes Movie Detail View
 
@@ -143,4 +142,4 @@ The purpose of this section is to provide a broad overview of Objective-C and us
 * In a day, we’ve covered many of the basic topics required for building iOS apps including views, layouts, navigation, and networking. 
 * Sign up with a [Parse account](https://parse.com/docs/android_guide)
     * Easy way to setup server-side database and API
-    * Think of a project you want to build and get started on it. Be sure to come to our meetup events.
+* Think of a project you want to build and get started on it. Be sure to come to our meetup events.
