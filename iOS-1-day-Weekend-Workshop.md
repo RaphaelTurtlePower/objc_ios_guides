@@ -68,7 +68,7 @@ The purpose of the Tip Calculator app is to use a simple, but functional app to 
   
 When running this session, feel free to take your time introducing Xcode and Interface Builder. Consider glossing over the Objective-C questions and deferring to the Objective-C walkthrough in next session, so that you can stay high level.
 
-1. Start by demonstrating the functioning Tip Calculator ([https://github.com/thecodepath/ios_tipster](https://github.com/thecodepath/ios_tipster))
+1. Start by demonstrating the functioning [Tip Calculator](https://github.com/thecodepath/ios_tipster)
 1. Create an empty Xcode project and run it in the simulator. Point out the various simulators.
 1. Create a new view controller called TipViewController with a xib.
 1. Set the TipViewController to be the rootViewController, change the background color of the view controller, and run it in the simulator.
