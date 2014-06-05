@@ -44,5 +44,3 @@
 - Add a view and modify background color
 - Modify corner radius, border, shadow
 - Add subviews to a container view
-- Pin a view to the top, left, right, or bottom using autoresizing masks
-- On orientation change, resize a view using autoresizing masks
