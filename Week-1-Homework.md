@@ -13,6 +13,10 @@
 - Group project
   - Meet with your group and decide on two possible app ideas.
 
+### Assets
+
+Feel free to use your own assets or you can download assets [here](https://www.dropbox.com/s/4twj5sx4vdkvft0/Facebook%20Story%20Assets.zip).
+
 ### Submission instructions
 
 - Submit all the items above the day before the next class at 10 pm. For example, if the homework was assigned on Tuesday, it's due the following Monday at 10 pm.
