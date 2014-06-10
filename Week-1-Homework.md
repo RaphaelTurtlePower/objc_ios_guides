@@ -6,9 +6,9 @@
   - Add UIImageViews and choose the right mode: aspect fill, aspect fit, etc.
   - Add a UITextField with a background image.
   - Add UILabels with attributed text (instead of plain text), so that you can bold individual words.
+  - Setup CocoaPods for managing 3rd party libraries and use TTTAttributedLabel to style the link and make it clickable
   - Optional: Move the textfield when the keyboard appears
   - Optional: Configure the autoresizingMasks to support rotation
-  - Optional: Setup CocoaPods for managing 3rd party libraries and use TTTAttributedLabel to style the link and make it clickable
   - Optional: Implement the same page programatically without using Interface Builder
 - Group project
   - Meet with your group and decide on two possible app ideas.
