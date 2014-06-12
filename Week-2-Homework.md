@@ -46,5 +46,5 @@
 
 ### Submission instructions
 
-- Submit all the items above by next Monday at 5pm.
-- To submit your weekly coding assignment, email me your Github repository URL or email me a zip file of your project.
+- Submit all the items above by next Tuesday at 10pm.
+- To submit your weekly coding assignment, follow these [submission instructions](Submitting Assignments).
