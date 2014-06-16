@@ -63,6 +63,10 @@ Read about our [mission to change the way engineers learn new technologies](http
 
 - [[Installing CocoaPods]]
 
+### Common Issues
+
+- [[Common Issues]]
+
 ## References
 
 - [Apple official guides](https://developer.apple.com/library/ios/navigation/#section=Resource%20Types&topic=Guides). These high level guides are a fantastic resource. Some good ones to read initially are:
