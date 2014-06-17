@@ -10,7 +10,9 @@
   - Optional: The like button should toggle the "liked" state.
   - Optional: Move the textfield when the keyboard appears.
   - Optional: The left and right navigation buttons should be real buttons. In other words, when you tap on them, they should have a highlight state. The buttons don't do anything when you tap on them.
-  - Optional: Implement the same page programatically without using Interface Builder.
+  - Optional: Tapping on the photo should show a view controller with a full-screen photo.
+  - Optional: Tapping on the tabs (requests, messages, etc) should show other view controllers.
+  - Optional: Implement the notifications page programatically without using Interface Builder. Don't use table views, just statically layout the views assuming no scrolling.
 - Group project
   - Meet with your group and decide on two possible app ideas.
 
