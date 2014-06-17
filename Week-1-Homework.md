@@ -9,6 +9,7 @@
   - Setup CocoaPods for managing 3rd party libraries and use TTTAttributedLabel to style the link and make it clickable
   - Optional: The like button should toggle the "liked" state.
   - Optional: Move the textfield when the keyboard appears.
+  - Optional: The left and right navigation buttons should be real buttons. In other words, when you tap on them, they should have a highlight state. The buttons don't do anything when you tap on them.
   - Optional: Implement the same page programatically without using Interface Builder.
 - Group project
   - Meet with your group and decide on two possible app ideas.
