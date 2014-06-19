@@ -83,34 +83,6 @@ The homework this week is to implement the Facebook login flow with loading and 
   - [[Using UIScrollView]]
   - [[Working with the keyboard]]
 
-### Week 4 - Animation and Gestures
-
-We will be covering view animations and interactions via gestures such as tap, pan, swipe, pinch, and rotate. We will be covering topics and use cases such as the following:
-
-- Animation
-  - Animation of properties such as color, frame, and alpha
-  - Animation options such as repeat and reverse
-  - Damping ratio and spring velocity
-  - Working with affine transforms
-- Gestures
-  - Attaching gestures to views
-  - Accessing location, velocity, rotation, and scale
-  - Processing gesture state
-
-#### Homework
-
-The homework this week is to make an interactive mock of the Paper navigation. Full homework description is [[here|Week 4 Homework]].
-
-<img src="http://i.imgur.com/1BNYyRK.gif" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/LUlV6x1.gif" width="250"/>
-
-#### Other links
-
-- [[Week 4 Skills checklist|Designer Week 4 Skills Checklist]]
-- Week 4 Quick References
-  - [[Basic animation]]
-  - [[Working with gesture recognizers]]
-  - [[Timers]]
-
 ### Week 3 - Custom feeds
 
 We will be covering creating custom UITableViews with dynamic row heights populated with modeled data. We will be covering topics and use cases such as the following:
@@ -139,6 +111,34 @@ The homework this week is to make a scrollable version of the Facebook notificat
   - [[Using Tab Bar Controllers]]
   - [[Downloading an image into UIImageView]]
   - [[Generating NSAttributedString from HTML]]
+
+### Week 4 - Animation and Gestures
+
+We will be covering view animations and interactions via gestures such as tap, pan, swipe, pinch, and rotate. We will be covering topics and use cases such as the following:
+
+- Animation
+  - Animation of properties such as color, frame, and alpha
+  - Animation options such as repeat and reverse
+  - Damping ratio and spring velocity
+  - Working with affine transforms
+- Gestures
+  - Attaching gestures to views
+  - Accessing location, velocity, rotation, and scale
+  - Processing gesture state
+
+#### Homework
+
+The homework this week is to make an interactive mock of the Paper navigation. Full homework description is [[here|Week 4 Homework]].
+
+<img src="http://i.imgur.com/1BNYyRK.gif" width="250"/>&nbsp;&nbsp;<img src="http://i.imgur.com/LUlV6x1.gif" width="250"/>
+
+#### Other links
+
+- [[Week 4 Skills checklist|Designer Week 4 Skills Checklist]]
+- Week 4 Quick References
+  - [[Basic animation]]
+  - [[Working with gesture recognizers]]
+  - [[Timers]]
 
 ### Week 5 - UIKit Dynamics
 
