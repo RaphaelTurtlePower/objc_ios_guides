@@ -122,4 +122,25 @@ nvc.navigationBar.barTintColor = [UIColor blueColor];
 nvc.navigationBar.translucent = NO;
 ```
 
+#### Example: Changing the font, color, and shadow of the navigation title
 
+You can configure many properties of the title label. Some of the common ones to modify are the font, font size, text color, and shadow.
+
+```
+UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+
+// Create the specifications for the shadow
+NSShadow *shadow = [[NSShadow alloc] init];
+shadow.shadowColor = [UIColor blueColor];
+shadow.shadowOffset = CGSizeMake(2, 2);
+shadow.shadowBlurRadius = 2;
+    
+NSDictionary *titleTextAttributes =
+  @{
+    NSFontAttributeName : [UIFont boldSystemFontOfSize:22],
+    NSForegroundColorAttributeName : [UIColor colorWithRed:1 green:0 blue:0 alpha:1],
+    NSShadowAttributeName : shadow
+  };
+    
+nvc.navigationBar.titleTextAttributes = titleTextAttributes;
+```
