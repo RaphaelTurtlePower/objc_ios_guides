@@ -10,3 +10,8 @@
 - Optional: Add a camera icon to the tray
   - Optional: Tapping the camera icon opens the camera.
   - Optional: After taking a picture, the picture is added to the view as a background view
+
+### Submission instructions
+
+- Submit all the items above the day before the next class at 10 pm. For example, if the homework was assigned on Tuesday, it's due the following Monday at 10 pm.
+- To submit your weekly coding assignment, follow these [submission instructions](Submitting Assignments).
