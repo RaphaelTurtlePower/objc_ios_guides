@@ -1,4 +1,4 @@
-<img src="http://i.imgur.com/byaRw1al.png" width="250" />
+<img src="http://i.imgur.com/E14OfN8.gif" width="250" />
 
 - Implement scrollable tray of images
   - You should be able to drag the tray up or down.
