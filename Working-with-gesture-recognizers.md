@@ -99,3 +99,40 @@ Gesture recognizers call the same selector as it transitions through various sta
    }
 }
 ```
+
+## Other Gesture Recognizer Tasks
+
+Below are some common tasks that you might have with gesture recognizers.
+
+### Using Simultaneous Gesture Recognizers
+
+By default, it won't work if you add multiple gesture recognizers to the same view. In order to do that, you have to specifically enable it.
+
+#### Step 1: Set the Gesture Recognizer delegate
+
+For example, if you want to use a pinch and rotate gesture recognizer simultaneously, choose either the pinch or the rotate gesture recognizer (it doesn't matter which one). If you created the gesture recognizer in Interface Builder, create an IBOutlet for it by Ctrl-dragging from the nib.
+
+```
+self.pinchGestureRecognizer.delegate = self;
+```
+
+#### Step 2: Implement the Gesture Recognizer protocol
+
+Go to the header file of the view controller and add UIGestureRecognizerDelegate to the list of protocols, as shown below.
+
+```
+@interface MainViewController : UIViewController <UIGestureRecognizerDelegate>
+...
+@end
+```
+
+Copy the following UIGestureRecognizerDelegate method into the implementation (.m) file.
+
+```
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
+    return YES;
+}
+```
+
+Now the pinch and scale gesture recognizers should work simultaneously.
+
