@@ -63,14 +63,21 @@ In the `viewDidLoad` method, configure the left or right navigation bar button. 
 
     // Configure the left button
     UIImage *leftButtonImage = [[UIImage imageNamed:@"leftButton"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] initWithImage:leftButtonImage style:UIBarButtonItemStylePlain target:self action:@selector(onLeftButton:)];
+    UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] initWithImage:leftButtonImage style:UIBarButtonItemStylePlain target:self action:@selector(onLeftButton)];
     self.navigationItem.leftBarButtonItem = leftButton;
     
     // Configure the right button
     UIImage *rightButtonImage = [[UIImage imageNamed:@"rightButton"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithImage:rightButtonImage style:UIBarButtonItemStylePlain target:self action:@selector(onRightButton:)];
+    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithImage:rightButtonImage style:UIBarButtonItemStylePlain target:self action:@selector(onRightButton)];
     self.navigationItem.rightBarButtonItem = rightButton;
 }
+```
+
+You can also create a UIBarButtonItem to have a custom piece of text. For example, if you want the text "Login" in the right button, you can add the following snippet to `viewDidLoad`.
+
+```
+UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Login" style:UIBarButtonItemStylePlain target:self action:@selector(onLoginButton)];
+self.navigationItem.rightBarButtonItem = rightButton;
 ```
 
 ### Configure the back button
