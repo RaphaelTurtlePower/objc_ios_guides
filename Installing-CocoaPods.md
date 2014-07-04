@@ -1,6 +1,6 @@
 ## Overview
 
-There is no official Apple mechanism for handling dependency management for iOS projects. An open source project called CocoaPods was created to 
+There is no official Apple mechanism for handling dependency management for iOS projects. An open source project called CocoaPods was created to fulfill this need.
 
 ### Step 1: Install RubyGems
 
