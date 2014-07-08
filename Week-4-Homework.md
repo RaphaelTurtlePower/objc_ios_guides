@@ -8,8 +8,6 @@
   - Optional: Create a Notification model class with properties for profilePicUrl, text, iconUrl, timestamp
   - Optional: Implement a functioning tab bar that can be switched between news feed and notifications
   - Optional: Implement a scrollable version of news feed that contains your post from the Week 1 assignment
-- Group project
-  - Create paper or digital wireframes. The purpose of the wireframes is to capture the user tasks, not visuals. Buttons and gestures should be documented. Click [here](http://i.imgur.com/kfWh6Lv.jpg) for an example of some well-documented, low-fidelity wireframes.
 
 ### Submission instructions
 
