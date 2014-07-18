@@ -1,3 +1,5 @@
+This is a guide for embedding and playing videos in any view. You can start, pause, and stop the video and configure it to loop. You can resize the video and add it as a subview to any view.
+
 ### Step 1: Installation
 
 #### a. Create a Podfile in your project directory
