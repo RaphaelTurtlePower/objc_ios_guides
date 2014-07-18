@@ -1,6 +1,6 @@
 ### Step 1: Installation
 
-#### 1. Create a Podfile in your project directory
+#### a. Create a Podfile in your project directory
 
 ```
 platform :ios, '7.0'
@@ -9,7 +9,7 @@ pod 'PBJVideoPlayer'
 pod 'HCYoutubeParser'
 ```
 
-#### 2. Install the Pods
+#### b. Install the Pods
 
 In the Terminal, type:
 
@@ -17,11 +17,11 @@ In the Terminal, type:
 pod install
 ```
 
-#### 3. Close your Xcode project and open the .xcworkspace file
+#### c. Close your Xcode project and open the .xcworkspace file
 
 ### Step 2: Set up the Player
 
-#### 1. Add a property for the player
+#### a. Add a property for the player
 
 In the `@interface` area of your view controller, declare the property.
 
@@ -33,7 +33,7 @@ In the `@interface` area of your view controller, declare the property.
 @end
 ```
 
-#### 2. Add the Player to the view
+#### b. Add the Player to the view
 
 In the `viewDidLoad` method, create the player and add the view to your main view whereever you want.
 
@@ -53,7 +53,7 @@ In the `viewDidLoad` method, create the player and add the view to your main vie
 }
 ```
 
-#### 3. Play the video
+#### c. Play the video
 
 You can immediately start playing the video in the `viewDidLoad` method or you can trigger it on button press.
 
