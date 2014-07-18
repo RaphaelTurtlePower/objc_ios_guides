@@ -64,7 +64,7 @@ NSURL *url = [NSURL URLWithString:@"https://www.youtube.com/watch?v=GuX52wkCIJA"
 NSDictionary *videos = [HCYoutubeParser h264videosWithYoutubeURL:url];
 
 NSString *hdUrl = videos[@"hd720"];
-NSString *mediumUrl = videos[@"hd720"];
+NSString *mediumUrl = videos[@"medium"];
 ```
 
 To play the medium resolution YouTube video above, do the following:
