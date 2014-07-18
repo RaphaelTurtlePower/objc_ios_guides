@@ -71,3 +71,14 @@ In the `viewDidLoad` method, add the camera preview into the placeholder preview
     [vision startPreview];
 }
 ```
+
+### Step 3: Recording Video
+
+Use the following commands to control the video recording:
+
+```
+[[PBJVision sharedInstance] startVideoCapture];
+[[PBJVision sharedInstance] pauseVideoCapture];
+[[PBJVision sharedInstance] resumeVideoCapture];
+[[PBJVision sharedInstance] endVideoCapture];
+```
