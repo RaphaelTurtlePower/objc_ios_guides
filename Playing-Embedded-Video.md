@@ -25,19 +25,28 @@ pod install
 
 ### Step 2: Set up the Player
 
-#### a. Add a property for the player
+#### a. Import the header files
+
+In the .m file of the view controller that you want to embed the video in, import the following header files by adding the lines below to the top of your .m file.
+
+```
+#import "HCYoutubeParser.h"
+#import "PBJVideoPlayerController.h"
+```
+
+#### b. Add a property for the player
 
 In the `@interface` area of your view controller, declare the property.
 
 ```
-@interface SplashViewController ()
+@interface MainViewController ()
 
 @property (nonatomic, strong) PBJVideoPlayerController *player;
 
 @end
 ```
 
-#### b. Add the Player to the view
+#### c. Add the Player to the view
 
 In the `viewDidLoad` method, create the player and add the view to your main view whereever you want.
 
@@ -57,7 +66,7 @@ In the `viewDidLoad` method, create the player and add the view to your main vie
 }
 ```
 
-#### c. Play the video
+#### d. Play the video
 
 You can immediately start playing the video in the `viewDidLoad` method or you can trigger it on button press.
 
