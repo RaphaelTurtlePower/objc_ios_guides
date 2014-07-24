@@ -82,3 +82,7 @@ Use the following commands to control the video recording:
 [[PBJVision sharedInstance] resumeVideoCapture];
 [[PBJVision sharedInstance] endVideoCapture];
 ```
+
+## Other Tasks
+
+### Saving to Camera Roll
