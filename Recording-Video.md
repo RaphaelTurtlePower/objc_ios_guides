@@ -86,3 +86,41 @@ Use the following commands to control the video recording:
 ## Other Tasks
 
 ### Saving to Camera Roll
+
+#### Step 1: Import Assets Framework
+
+In the view controller that is recording your video, import the assets framework by including the following line at the top of your .m file.
+
+```
+#import <AssetsLibrary/AssetsLibrary.h>
+```
+
+#### Step 2: Save the video when recording stops
+
+In order to save the video, we have to know when the recording stops. In the `viewDidLoad` method, set the view controller as the delegate of the `PBJVision` instance.
+
+```
+PBJVision *vision = [PBJVision sharedInstance];
+vision.delegate = self;
+```
+
+Then, implement the following method:
+
+```
+- (void)vision:(PBJVision *)vision capturedVideo:(NSDictionary *)videoDict error:(NSError *)error
+{
+    // This is the path of the recorded video which is current in a temp directory on the phone
+    NSString *videoPath = [videoDict objectForKey:PBJVisionVideoPathKey];
+
+    // Move the video file from the temp directory to the camera roll
+    ALAssetsLibrary *assetLibrary = [[ALAssetsLibrary alloc] init];
+    [assetLibrary writeVideoAtPathToSavedPhotosAlbum:[NSURL URLWithString:videoPath] completionBlock:^(NSURL *assetURL, NSError *error1) {
+        self.player.videoPath = assetURL.absoluteString;
+        
+        // Optionally, start playing the video.
+        [self.player playFromBeginning];
+    }];
+}
+```
+
+For more details on how to play the recorded video, check out the [[Playing Embedded Video]] guide.
