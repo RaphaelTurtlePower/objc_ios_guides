@@ -56,7 +56,7 @@ In `viewDidLoad`, create the gravity behavior and add it to the animator.
 }
 ```
 
-#### Adding/Removing items from gravity
+#### Adding/Removing Items from Gravity
 
 At any time, you can add or remove views to the gravity behavior based on user input or some other condition.
 
