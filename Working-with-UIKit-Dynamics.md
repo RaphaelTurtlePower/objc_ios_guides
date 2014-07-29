@@ -172,3 +172,50 @@ To detect the collision of an object with another object, implement the followin
     UIView *view2 = (UIView *)item2;
 }
 ```
+
+### Push
+
+Since you may want to add or remove items from push dynamically, you should create the push behavior as a property.
+
+```
+@interface MainViewController
+
+@property (nonatomic, strong) UIPushBehavior *push;
+
+@end
+```
+
+In `viewDidLoad`, create the push behavior and add it to the animator.
+
+```
+- (void)viewDidLoad {
+    [super viewDidLoad];
+
+    self.push = [[UIPushBehavior alloc] init]];
+    [self.animator addBehavior:self.push];
+}
+```
+
+#### Adding/Removing Items from Push
+
+At any time, you can add or remove views to the push behavior based on user input or some other condition.
+
+```
+[self.push addItem:self.greenView];
+[self.push removeItem:self.blueView];
+```
+
+#### Direction of Push
+
+You can change the direction and force of the push force by modifying the `pushDirection` property.
+
+```
+// Push goes down, but 1/10 the force of gravity
+self.push.pushDirection = CGVectorMake(0,0.1);
+
+// Push goes up
+self.push.pushDirection = CGVectorMake(0,-1);
+
+// Push goes diagonal
+self.push.pushDirection = CGVectorMake(1,1);
+```
