@@ -31,19 +31,51 @@ The UIDynamicAnimator is instantiated with a reference view, which is usually th
 
 You can create nearly any effect by using one or more of the available behaviors: gravity, push, snap, attachment, and collision. After creating the behavior, add it to the animator to enable it.
 
-#### Example: Gravity
+### Gravity
 
 <img src="http://i.imgur.com/2RAjIi2.gif" width="250" height="443" />
 
+Since you may want to add or remove items from gravity dynamically, you should create the gravity behavior as a property.
+
 ```
-NSArray *itemsWithGravity = @[self.greenView, self.blueView, self.redView];
-UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[itemsWithGravity]];
-[self.animator addBehavior:gravityBehavior];
+@interface MainViewController
+
+@property (nonatomic, strong) UIGravityBehavior *gravity;
+
+@end
 ```
+
+In `viewDidLoad`, create the gravity behavior and add it to the animator.
+
+```
+- (void)viewDidLoad {
+    [super viewDidLoad];
+
+    self.gravity = [[UIGravityBehavior alloc] init]];
+    [self.animator addBehavior:self.gravity];
+}
+```
+
+#### Adding/Removing items from gravity
 
 At any time, you can add or remove views to the gravity behavior based on user input or some other condition.
 
 ```
-[gravityBehavior addItem:self.greenView];
-[gravityBehavior removeItem:self.blueView];
+[self.gravity addItem:self.greenView];
+[self.gravity removeItem:self.blueView];
+```
+
+#### Direction of Gravity
+
+You can change the direction and force of gravity by modifying the `gravityDirection` property.
+
+```
+// Gravity still goes down, but at a reduced force
+self.gravity.gravityDirection = CGVectorMake(0,0.1);
+
+// Gravity goes up
+self.gravity.gravityDirection = CGVectorMake(0,-1);
+
+// Gravity goes diagonal
+self.gravity.gravityDirection = CGVectorMake(1,1);
 ```
