@@ -79,3 +79,96 @@ self.gravity.gravityDirection = CGVectorMake(0,-1);
 // Gravity goes diagonal
 self.gravity.gravityDirection = CGVectorMake(1,1);
 ```
+
+### Collision
+
+Since you may want to add or remove items from collision dynamically, you should create the collision behavior as a property.
+
+```
+@interface MainViewController
+
+@property (nonatomic, strong) UICollisionBehavior *collision;
+
+@end
+```
+
+In `viewDidLoad`, create the collision behavior and add it to the animator.
+
+```
+- (void)viewDidLoad {
+    [super viewDidLoad];
+
+    self.collision = [[UICollisionBehavior alloc] init]];
+    [self.animator addBehavior:self.collision];
+}
+```
+
+#### Adding/Removing Items from Collision
+
+At any time, you can add or remove views to the collision behavior based on user input or some other condition.
+
+```
+[self.collision addItem:self.greenView];
+[self.collision removeItem:self.blueView];
+```
+
+#### Setting up Boundaries
+
+You can add arbitrary boundaries for objects to collide with. Choose an identifier, so that when a collision event happens, you can check which boundary an object collided with.
+
+```
+[self.collision addBoundaryWithIdentifier:@"shelf" fromPoint:CGPointMake(0, 200) toPoint:CGPointMake(150, 240)];
+```
+
+You can set the bounds of the view to automatically be boundaries by setting the `translatesReferenceBoundsIntoBoundaries` property.
+
+```
+self.collision.translatesReferenceBoundsIntoBoundary = YES;
+```
+
+#### Detecting collisions
+
+In order to detect collisions, you have to first set the collisionDelegate.
+
+```
+self.collision.collisionDelegate = self;
+```
+
+Then, in the .h file of your view controller, declare that you implement the UICollisionDelegate protocol.
+
+```
+@interface MainViewController : UIViewController <UICollisionBehaviorDelegate>
+
+...
+
+@end
+```
+
+Implement one of the appropriate collision events, e.g., collision between two objects or collision between an object and a boundary.
+
+For example, to detect the collision of an object with a boundary, implement the following method:
+
+```
+- (void)collisionBehavior:(UICollisionBehavior*)behavior beganContactForItem:(id <UIDynamicItem>)item withBoundaryIdentifier:(id <NSCopying>)identifier atPoint:(CGPoint)p {
+    // You have to convert the identifier to a string
+    NSString *boundary = (NSString *)identifier;
+
+    // The view that collided with the boundary has to be converted to a view
+    UIView *view = (UIView *)item;
+
+    if ([boundary isEqualToString:@"shelf"]) {
+        // Detected collision with a boundary called "shelf"
+    } else if (boundary == nil) {
+        // Detected collision with bounds of reference view
+    }
+}
+```
+
+To detect the collision of an object with another object, implement the following method:
+
+```
+- (void)collisionBehavior:(UICollisionBehavior*)behavior beganContactForItem:(id <UIDynamicItem>)item1 withItem:(id <UIDynamicItem>)item2 atPoint:(CGPoint)p {
+    UIView *view1 = (UIView *)item1;
+    UIView *view2 = (UIView *)item2;
+}
+```
