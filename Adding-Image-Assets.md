@@ -33,3 +33,7 @@ UIImageView *chatImageView = [[UIImageView alloc] initWithImage:chat];
 var chat = UIImage(named: "Chat")
 var chatImageView = UIImageView(image: chat)
 ```
+
+### App Icon and Launch Image
+
+To set the app icon and the launch image, simply select "App Icon" or "Launch Image" in the asset catalog and drag a .png file into the appropriate bucket. The App Icon expects various sizes for production, although you can use just one during development. Similarly, in production, the Launch Image expects 3.5" and 4" images, but you can use just one during development.
