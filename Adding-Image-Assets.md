@@ -27,3 +27,9 @@ To access images in the Asset Catalog programatically, create UIImages using the
 UIImage *chat = [UIImage imageNamed:@"Chat"];
 UIImageView *chatImageView = [[UIImageView alloc] initWithImage:chat];
 ```
+
+**Swift**
+```
+var chat = UIImage(named: "Chat")
+var chatImageView = UIImageView(image: chat)
+```
