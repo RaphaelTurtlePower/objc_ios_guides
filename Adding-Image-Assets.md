@@ -22,6 +22,7 @@ Any control that has images like UIImageViews or UIButtons can set images in Int
 
 To access images in the Asset Catalog programatically, create UIImages using the `imageNamed:` method as shown in the snippet below.
 
+**Objective-C**
 ```
 UIImage *chat = [UIImage imageNamed:@"Chat"];
 UIImageView *chatImageView = [[UIImageView alloc] initWithImage:chat];
