@@ -1,16 +1,13 @@
 ## Overview
 
-This document is a guide to  the 1-day iOS workshop format to be run on a weekend for a group of about **15-20 people** from **10am-4pm**. Organizers should be at the venue by **9am** to help setup.
+This document is a guide to  the 1-day Objective-C for iOS workshop format to be run on a weekend for a group of  from **9am-5pm**. Organizers should be at the venue by **8am** to help setup.
 
 ## Student Prerequisites
 
-The participants of this workshop should have some general programming experience, but they may or may not be professional developers. We assume that most participants do not know Objective-C already.
+The participants can be at any level of programming experience (we will sort you based upon skill level after arrival), but they may or may not be professional developers. We assume that most participants do not know Objective-C already.
 
-Prior to the workshop, the lead organizer is responsible for ensuring the students are prepared with the following:
-
-* A recent installation of Xcode.
-* CocoaPods
-  
+Prior to the workshop, students will need a Mac computer running OSX 10.7 or later, with X-Code 4.5 or later. Please install X-Code from the Mac App Store. Keep in mind that you will need a strong internet connection to speed up this process. If you don’t know where to find this try your local Apple store.
+  <!-- 
 ## Roles
 
 In order to run the workshop, we typically recommend 3-4 people helping out. There should be **1-2 instructors** and **1-2 TAs helping out**:
@@ -23,7 +20,7 @@ In order to run the workshop, we typically recommend 3-4 people helping out. The
 * Most important thing is not to follow the schedule but that the group is able to follow along with the material on their computers. This is intended as a hands-on demo so we need to make sure that the majority of students are caught up.
 * During each scheduled break, TAs and instructors should circle around and check in with each student to get a sense of if they have had any problems keeping up with the previous section.
 * If certain people get too far behind the group, have them follow along by pairing them with another person sitting next to them who was able to follow along.
-
+-->
 ## Schedule
 
 This is an approximate schedule. Remember to take the breaks because they are a good time to allow everyone to catch up.
