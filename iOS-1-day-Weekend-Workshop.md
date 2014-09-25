@@ -7,20 +7,22 @@ This document is a guide to  the 1-day Objective-C for iOS workshop format to b
 The participants can be at any level of programming experience (we will sort you based upon skill level after arrival), but they may or may not be professional developers. We assume that most participants do not know Objective-C already.
 
 Prior to the workshop, students will need a Mac computer running OSX 10.7 or later, with X-Code 4.5 or later. Please install X-Code from the Mac App Store. Keep in mind that you will need a strong internet connection to speed up this process. If you don’t know where to find this try your local Apple store.
-  <!-- 
-## Roles
 
-In order to run the workshop, we typically recommend 3-4 people helping out. There should be **1-2 instructors** and **1-2 TAs helping out**:
 
-* **Instructor** should be leading the session by giving step-by-step instructions and explaining each step and concept as it comes up. Might be completing the app on the projector alongside students. If there are multiple instructors, they might switch off to co-teach between sections of the day.
-* **TA** should be acting as support for the attendees circling around them during each step to ensure they don’t get stuck or left too far behind. The TAs should be the “eyes and ears” of the instructors to help adjust the pacing.
+<!-- ## Roles-->
 
-## Tips
+<!--In order to run the workshop, we typically recommend 3-4 people helping out. There should be **1-2 instructors** and **1-2 TAs helping out**:-->
 
-* Most important thing is not to follow the schedule but that the group is able to follow along with the material on their computers. This is intended as a hands-on demo so we need to make sure that the majority of students are caught up.
-* During each scheduled break, TAs and instructors should circle around and check in with each student to get a sense of if they have had any problems keeping up with the previous section.
-* If certain people get too far behind the group, have them follow along by pairing them with another person sitting next to them who was able to follow along.
--->
+<!--* **Instructor** should be leading the session by giving step-by-step instructions and explaining each step and concept as it comes up. Might be completing the app on the projector alongside students. If there are multiple instructors, they might switch off to co-teach between sections of the day.
+<!--* **TA** should be acting as support for the attendees circling around them during each step to ensure they don’t get stuck or left too far behind. The TAs should be the “eyes and ears” of the instructors to help adjust the pacing.-->
+
+<!--## Tips-->
+
+<!--* Most important thing is not to follow the schedule but that the group is able to follow along with the material on their computers. This is intended as a hands-on demo so we need to make sure that the majority of students are caught up.-->
+<!--* During each scheduled break, TAs and instructors should circle around and check in with each student to get a sense of if they have had any problems keeping up with the previous section.-->
+<!--* If certain people get too far behind the group, have them follow along by pairing them with another person sitting next to them who was able to follow along.-->
+
+
 ## Schedule
 
 This is an approximate schedule. Remember to take the breaks because they are a good time to allow everyone to catch up.
