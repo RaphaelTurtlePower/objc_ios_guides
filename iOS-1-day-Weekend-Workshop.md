@@ -6,7 +6,7 @@ This document is a guide to  the 1-day Objective-C for iOS workshop format to b
 
 The participants can be at any level of programming experience (we will sort you based upon skill level after arrival), but they may or may not be professional developers. We assume that most participants do not know Objective-C already.
 
-Prior to the workshop, students will need a Mac computer running OSX 10.7 or later, with X-Code 4.5 or later. Please install X-Code from the Mac App Store. Keep in mind that you will need a strong internet connection to speed up this process. If you don’t know where to find this try your local Apple store.
+Prior to the workshop, students will need a Mac computer running OSX 10.7 or later, with X-Code 5 or later (preferably 6 or 6.01). Please install X-Code from the Mac App Store. Keep in mind that you will need a strong internet connection to speed up this process. If you don’t know where to find this try your local Apple store.
 
 
 <!-- ## Roles-->
