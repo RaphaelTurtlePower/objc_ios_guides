@@ -8,9 +8,9 @@ The participants can be at any level of programming experience (we will sort you
 
 Prior to the workshop, students will need all three of the following items: 
 
-1. Mac computer running OSX 10.7 or later
-2. X-Code 6 or 6.01, this can be downloaded from the App Store. *Note: if you have slow internet this could take 10 hours; however, if not it should take 10 minutes. If you find yourself with a 10hr download time go to your local Apple store (free wifi, no password required and the "Geniuses" don't mind. I just did it last weekend).
-3. CocoaPods - Follow the [instructions listed here](http://guides.cocoapods.org/using/getting-started.html#getting-started). Cocoapods was developed using ruby and can be installed by running `sudo gem install cocoapods` on the command line. We plan to provide more instruction later on to better clarify for beginners. If additional information is not posted and you are stuck, please email me (laurakirby26@gmail.com)
+1. **Mac computer** running OSX 10.7 or later
+2. **X-Code 6 or 6.01**, this can be downloaded from the App Store. *Note: if you have slow internet this could take 10 hours; however, if not it should take 10 minutes. If you find yourself with a 10hr download time go to your local Apple store (free wifi, no password required and the "Geniuses" don't mind. I just did it last weekend).
+3. **CocoaPods** - Follow the [instructions listed here](http://guides.cocoapods.org/using/getting-started.html#getting-started). Cocoapods was developed using ruby and can be installed by running `sudo gem install cocoapods` in the Terminal. We plan to provide more instruction later on to better clarify for beginners. If additional information is not posted and you are stuck, please email me (laurakirby26@gmail.com)
 
 <!-- ## Roles-->
 
