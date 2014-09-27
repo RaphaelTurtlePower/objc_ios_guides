@@ -7,9 +7,10 @@ This document is a guide to  the 1-day Objective-C for iOS workshop format to b
 The participants can be at any level of programming experience (we will sort you based upon skill level after arrival), but they may or may not be professional developers. We assume that most participants do not know Objective-C already.
 
 Prior to the workshop, students will need all three of the following items: 
-1) Mac computer running OSX 10.7 or later
-2) X-Code 6 or 6.01, this can be downloaded from the App Store. *Note: if you have slow internet this could take 10 hours; however, if not it should take 10 minutes. If you find yourself with a 10hr download time go to your local Apple store (free wifi, no password required and the "Geniuses" don't mind. I just did it last weekend).
-3) CocoaPods - follow the instruction listed here: http://cocoapods.org/ . We plan to provide more instruction later on to better clarify for beginners. If additional information is not posted and you are stuck, please email me laurakirby26@gmail.com)
+
+1. Mac computer running OSX 10.7 or later
+2. X-Code 6 or 6.01, this can be downloaded from the App Store. *Note: if you have slow internet this could take 10 hours; however, if not it should take 10 minutes. If you find yourself with a 10hr download time go to your local Apple store (free wifi, no password required and the "Geniuses" don't mind. I just did it last weekend).
+3. CocoaPods - follow the instruction listed here: http://cocoapods.org/ . We plan to provide more instruction later on to better clarify for beginners. If additional information is not posted and you are stuck, please email me laurakirby26@gmail.com)
 
 <!-- ## Roles-->
 
