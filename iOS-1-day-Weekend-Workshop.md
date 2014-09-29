@@ -1,5 +1,7 @@
 ## Overview
 
+**MobileBridge:** Check this [alternate guide](https://github.com/mobilebridge/iosbridge/wiki/iOS-1-day-Weekend-Workshop)
+
 This document is a guide to  the 1-day Objective-C for iOS workshop format to be run on a weekend for a group of  from **9am-5pm**. Organizers should be at the venue by **8am** to help setup.
 
 ## Student Prerequisites
@@ -12,19 +14,18 @@ Prior to the workshop, students will need all three of the following items:
 2. **Xcode 6 or 6.0.1**, this can be downloaded from the App Store. *Note: if you have slow internet this could take 10 hours; however, if not it should take 10 minutes. If you find yourself with a 10hr download time go to your local Apple store (free wifi, no password required and the "Geniuses" don't mind. I just did it last weekend).
 3. **CocoaPods** - Follow the [instructions listed here](http://guides.cocoapods.org/using/getting-started.html#getting-started). Cocoapods was developed using ruby and can be installed by running `sudo gem install cocoapods` in the Terminal. We plan to provide more instruction later on to better clarify for beginners. If additional information is not posted and you are stuck, please email me (laurakirby26@gmail.com)
 
-<!-- ## Roles-->
+## Roles
 
-<!--In order to run the workshop, we typically recommend 3-4 people helping out. There should be **1-2 instructors** and **1-2 TAs helping out**:-->
+In order to run the workshop, we typically recommend 3-4 people helping out. There should be **1-2 instructors** and **1-2 TAs helping out**:
 
-<!--* **Instructor** should be leading the session by giving step-by-step instructions and explaining each step and concept as it comes up. Might be completing the app on the projector alongside students. If there are multiple instructors, they might switch off to co-teach between sections of the day.
-<!--* **TA** should be acting as support for the attendees circling around them during each step to ensure they don’t get stuck or left too far behind. The TAs should be the “eyes and ears” of the instructors to help adjust the pacing.-->
+* **Instructor** should be leading the session by giving step-by-step instructions and explaining each step and concept as it comes up. Might be completing the app on the projector alongside students. If there are multiple instructors, they might switch off to co-teach between sections of the day.
+* **TA** should be acting as support for the attendees circling around them during each step to ensure they don’t get stuck or left too far behind. The TAs should be the “eyes and ears” of the instructors to help adjust the pacing.
 
-<!--## Tips-->
+## Tips
 
-<!--* Most important thing is not to follow the schedule but that the group is able to follow along with the material on their computers. This is intended as a hands-on demo so we need to make sure that the majority of students are caught up.-->
-<!--* During each scheduled break, TAs and instructors should circle around and check in with each student to get a sense of if they have had any problems keeping up with the previous section.-->
-<!--* If certain people get too far behind the group, have them follow along by pairing them with another person sitting next to them who was able to follow along.-->
-
+* Most important thing is not to follow the schedule but that the group is able to follow along with the material on their computers. This is intended as a hands-on demo so we need to make sure that the majority of students are caught up.
+* During each scheduled break, TAs and instructors should circle around and check in with each student to get a sense of if they have had any problems keeping up with the previous section.
+* If certain people get too far behind the group, have them follow along by pairing them with another person sitting next to them who was able to follow along.
 
 ## Schedule
 
