@@ -1,6 +1,6 @@
 ## Overview
 
-**MobileBridge:** Check this [alternate guide](https://github.com/mobilebridge/iosbridge/wiki/iOS-1-day-Weekend-Workshop)
+**MobileBridge:** Check this [alternate guide](https://github.com/mobilebridge/iosbridge/wiki/iOS-1-day-Weekend-Workshop) for MobileBridge workshops.
 
 This document is a guide to  the 1-day Objective-C for iOS workshop format to be run on a weekend for a group of  from **9am-5pm**. Organizers should be at the venue by **8am** to help setup.
 
