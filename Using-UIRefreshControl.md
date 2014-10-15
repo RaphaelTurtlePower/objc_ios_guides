@@ -9,46 +9,43 @@ Pull to refresh has been a standard UI convention in iOS since early days of Twi
 It's useful to create the UIRefreshControl as an instance variable at the top of the class because you need to access it to stop the loading behavior.
 
 ```
-class MyViewController: UIViewController {
-    var refreshControl: UIRefreshControl!
-    
-    ...
+@interface MyViewController ()
+@property (nonatomic, strong) UIRefreshControl *refreshControl;
+@end
+
+@implementation MyViewController
+...
+@end
 
 ```
 
 ### Step 2: Add the UIRefreshControl to the Scroll View
 
-In `viewDidLoad`, add the refresh control as a subview of the scrollview. It's best to insert it at the lowest index so that it appears behind all the views in the scrollview.
+In `viewDidLoad`, add the refresh control as a subview of the scrollview (or tableview or collection view). It's best to insert it at the lowest index so that it appears behind all the views in the scrollview.
 
 ```
-override func viewDidLoad() {
-    super.viewDidLoad()
+- (void)viewDidLoad {
+    [super viewDidLoad];
     
-    refreshControl = UIRefreshControl()
-    refreshControl.addTarget(self, action: "onRefresh", forControlEvents: UIControlEvents.ValueChanged)
-    scrollView.insertSubview(refreshControl, atIndex: 0)
+    self.refreshControl = [[UIRefreshControl alloc] init];
+    [self.refreshControl addTarget:self action:@selector(onRefresh) forControlEvents:UIControlEventValueChanged];
+    [self.tableView insertSubview:self.refreshControl atIndex:0];
 }
 
 ```
 
 ### Step 3: Implement the onRefresh Method
 
-In Step 2 above, we said whenever the refreshControl changes state, it should call the `onRefresh` method. We need to define that method. For prototyping, you can simulate network loading by canceling refreshing after a couple of seconds.
+In Step 2 above, we said whenever the refreshControl changes state, it should call the `onRefresh` method. We need to define that method. When the refresh is complete, call endRefreshing on the refreshControl.
 
 ```
-func delay(delay:Double, closure:()->()) {
-    dispatch_after(
-        dispatch_time(
-            DISPATCH_TIME_NOW,
-            Int64(delay * Double(NSEC_PER_SEC))
-        ),
-        dispatch_get_main_queue(), closure)
-}
-
-func onRefresh() {
-    delay(2, closure: {
-        self.refreshControl.endRefreshing()
-    })
+- (void)onRefresh {
+    NSURL *url = [NSURL URLWithString:@"..."];
+    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
+    [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+        
+        [self.refreshControl endRefreshing];
+    }];
 }
 
 ```
